@@ -1,0 +1,211 @@
+[0.146s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.146s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f45dd306b20>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f45dd306b20>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f45dd311130>)
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.172s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws) by extension 'ros'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws) by extensions ['cmake', 'python']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws) by extension 'cmake'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws) by extension 'python'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws) by extensions ['python_setup_py']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws) by extension 'python_setup_py'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src) by extension 'ros'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src) by extensions ['cmake', 'python']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src) by extension 'cmake'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src) by extension 'python'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src) by extensions ['python_setup_py']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src) by extension 'python_setup_py'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_bridge_galactic) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_bridge_galactic) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_bridge_galactic) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_bridge_galactic) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_bridge_galactic) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_bridge_galactic) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_bridge_galactic) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_bridge_galactic) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_bridge_galactic) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package 'lqr_galactic_wtih_todo_ws/src/lgsvl_bridge_galactic' with type 'ros.ament_cmake' and name 'lgsvl_bridge_galactic'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_msgs) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_msgs) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_msgs) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_msgs) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_msgs) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_msgs) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_msgs) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_msgs) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'lqr_galactic_wtih_todo_ws/src/lgsvl_msgs' with type 'ros.ament_cmake' and name 'lgsvl_msgs'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lqr_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lqr_controller) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lqr_controller) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lqr_controller) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lqr_controller) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lqr_controller) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lqr_controller) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lqr_controller) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lqr_controller) by extension 'ros'
+[0.199s] DEBUG:colcon.colcon_core.package_identification:Package 'lqr_galactic_wtih_todo_ws/src/lqr_controller' with type 'ros.ament_cmake' and name 'lqr_controller'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/stanley_control) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/stanley_control) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/stanley_control) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/stanley_control) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/stanley_control) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/stanley_control) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/stanley_control) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/stanley_control) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/stanley_control) by extension 'ros'
+[0.200s] DEBUG:colcon.colcon_core.package_identification:Package 'lqr_galactic_wtih_todo_ws/src/stanley_control' with type 'ros.ament_cmake' and name 'stanley_control'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/vehicle_control) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/vehicle_control) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/vehicle_control) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/vehicle_control) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/vehicle_control) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/vehicle_control) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/vehicle_control) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/vehicle_control) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/vehicle_control) by extension 'ros'
+[0.202s] DEBUG:colcon.colcon_core.package_identification:Package 'lqr_galactic_wtih_todo_ws/src/vehicle_control' with type 'ros.ament_cmake' and name 'vehicle_control'
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_msgs' build argument 'cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_msgs' build argument 'cmake_target' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.222s] DEBUG:colcon.colcon_core.verb:Building package 'lgsvl_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs', 'merge_install': False, 'path': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lgsvl_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'lqr_controller' build argument 'cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'lqr_controller' build argument 'cmake_target' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'lqr_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'lqr_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'lqr_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'lqr_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'lqr_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'lqr_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'lqr_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.223s] DEBUG:colcon.colcon_core.verb:Building package 'lqr_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lqr_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller', 'merge_install': False, 'path': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller', 'symlink_install': False, 'test_result_base': None}
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_bridge_galactic' build argument 'cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_bridge_galactic' build argument 'cmake_target' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_bridge_galactic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_bridge_galactic' build argument 'cmake_clean_cache' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_bridge_galactic' build argument 'cmake_clean_first' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_bridge_galactic' build argument 'cmake_force_configure' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_bridge_galactic' build argument 'ament_cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_bridge_galactic' build argument 'catkin_cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_bridge_galactic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.224s] DEBUG:colcon.colcon_core.verb:Building package 'lgsvl_bridge_galactic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_bridge_galactic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic', 'merge_install': False, 'path': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lgsvl_bridge_galactic', 'symlink_install': False, 'test_result_base': None}
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'stanley_control' build argument 'cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'stanley_control' build argument 'cmake_target' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'stanley_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'stanley_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'stanley_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'stanley_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'stanley_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'stanley_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'stanley_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.225s] DEBUG:colcon.colcon_core.verb:Building package 'stanley_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/stanley_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control', 'merge_install': False, 'path': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/stanley_control', 'symlink_install': False, 'test_result_base': None}
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'vehicle_control' build argument 'cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'vehicle_control' build argument 'cmake_target' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'vehicle_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'vehicle_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'vehicle_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'vehicle_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'vehicle_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'vehicle_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'vehicle_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.226s] DEBUG:colcon.colcon_core.verb:Building package 'vehicle_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/vehicle_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control', 'merge_install': False, 'path': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/vehicle_control', 'symlink_install': False, 'test_result_base': None}
+[0.226s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.241s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.241s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lgsvl_msgs' with build type 'ament_cmake'
+[0.241s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lgsvl_msgs'
+[0.246s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.246s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.246s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.260s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller' with build type 'ament_cmake'
+[0.260s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller'
+[0.261s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.261s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_msgs': /usr/bin/cmake /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lgsvl_msgs -DCMAKE_INSTALL_PREFIX=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs
+[0.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lqr_controller': /usr/bin/cmake /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller -DCMAKE_INSTALL_PREFIX=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller
+[3.929s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lqr_controller' returned '1': /usr/bin/cmake /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller -DCMAKE_INSTALL_PREFIX=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller
+[3.951s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lqr_controller)
+[3.955s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller' for CMake module files
+[3.956s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller' for CMake config files
+[3.956s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/bin'
+[3.956s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/lib/pkgconfig/lqr_controller.pc'
+[3.957s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/lib/python3.8/site-packages'
+[3.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/package.ps1'
+[3.959s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/package.dsv'
+[3.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/package.sh'
+[3.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/package.bash'
+[3.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/package.zsh'
+[3.962s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/colcon-core/packages/lqr_controller)
+[5.064s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.064s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.065s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[5.065s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.084s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[5.084s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.084s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.084s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.094s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[5.095s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.098s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/local_setup.ps1'
+[5.102s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/_local_setup_util_ps1.py'
+[5.106s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/setup.ps1'
+[5.109s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/local_setup.sh'
+[5.111s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/_local_setup_util_sh.py'
+[5.112s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/setup.sh'
+[5.115s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/local_setup.bash'
+[5.116s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/setup.bash'
+[5.118s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/local_setup.zsh'
+[5.118s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/setup.zsh'

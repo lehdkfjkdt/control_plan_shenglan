@@ -1,0 +1,59 @@
+In file included from [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/include/lqr_controller/common.h:19[m[K,
+                 from [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/include/lqr_controller/lqr_controller.h:12[m[K,
+                 from [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/include/lqr_controller/lqr_lateral_pid_longitudinal.h:12[m[K,
+                 from [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_lateral_pid_longitudinal.cpp:1[m[K:
+[01m[K/opt/ros/rolling/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/include/lqr_controller/common.h:19[m[K,
+                 from [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/include/lqr_controller/lqr_controller.h:12[m[K,
+                 from [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:1[m[K:
+[01m[K/opt/ros/rolling/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:[m[K In member function ‘[01m[Kvoid shenlan::control::LqrController::UpdateMatrix(const VehicleState&)[m[K’:
+[01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:192:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvehicle_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  192 | void LqrController::UpdateMatrix([01;35m[Kconst VehicleState &vehicle_state[m[K) {}
+      |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:[m[K In member function ‘[01m[Kdouble shenlan::control::LqrController::ComputeFeedForward(const VehicleState&, double)[m[K’:
+[01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:195:105:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  195 | double LqrController::ComputeFeedForward(const VehicleState &localization, const double ref_curvature) {[01;35m[K}[m[K
+      |                                                                                                         [01;35m[K^[m[K
+[01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:195:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klocalization[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  195 | double LqrController::ComputeFeedForward([01;35m[Kconst VehicleState &localization[m[K, const double ref_curvature) {}
+      |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:195:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kref_curvature[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  195 | double LqrController::ComputeFeedForward(const VehicleState &localization, [01;35m[Kconst double ref_curvature[m[K) {}
+      |                                                                            [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:[m[K In member function ‘[01m[Kvoid shenlan::control::LqrController::ComputeLateralErrors(double, double, double, double, double, double, LateralControlErrorPtr&)[m[K’:
+[01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:198:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  198 | void LqrController::ComputeLateralErrors([01;35m[Kconst double x[m[K, const double y, const double theta, const double linear_v, const double angular_v, const double linear_a, LateralControlErrorPtr &lat_con_err) {}
+      |                                          [01;35m[K~~~~~~~~~~~~~^[m[K
+[01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:198:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  198 | void LqrController::ComputeLateralErrors(const double x, [01;35m[Kconst double y[m[K, const double theta, const double linear_v, const double angular_v, const double linear_a, LateralControlErrorPtr &lat_con_err) {}
+      |                                                          [01;35m[K~~~~~~~~~~~~~^[m[K
+[01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:198:87:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktheta[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  198 | void LqrController::ComputeLateralErrors(const double x, const double y, [01;35m[Kconst double theta[m[K, const double linear_v, const double angular_v, const double linear_a, LateralControlErrorPtr &lat_con_err) {}
+      |                                                                          [01;35m[K~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:198:107:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klinear_v[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  198 | void LqrController::ComputeLateralErrors(const double x, const double y, const double theta, [01;35m[Kconst double linear_v[m[K, const double angular_v, const double linear_a, LateralControlErrorPtr &lat_con_err) {}
+      |                                                                                              [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:198:130:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kangular_v[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  198 | void LqrController::ComputeLateralErrors(const double x, const double y, const double theta, const double linear_v, [01;35m[Kconst double angular_v[m[K, const double linear_a, LateralControlErrorPtr &lat_con_err) {}
+      |                                                                                                                     [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:198:154:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klinear_a[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  198 | void LqrController::ComputeLateralErrors(const double x, const double y, const double theta, const double linear_v, const double angular_v, [01;35m[Kconst double linear_a[m[K, LateralControlErrorPtr &lat_con_err) {}
+      |                                                                                                                                             [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:198:188:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klat_con_err[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  198 | void LqrController::ComputeLateralErrors(const double x, const double y, const double theta, const double linear_v, const double angular_v, const double linear_a, [01;35m[KLateralControlErrorPtr &lat_con_err[m[K) {}
+      |                                                                                                                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:[m[K In member function ‘[01m[Kvoid shenlan::control::LqrController::SolveLQRProblem(const Matrix&, const Matrix&, const Matrix&, const Matrix&, double, uint, shenlan::control::Matrix*)[m[K’:
+[01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:223:118:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktolerance[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  223 | void LqrController::SolveLQRProblem(const Matrix &A, const Matrix &B, const Matrix &Q, const Matrix &R, [01;35m[Kconst double tolerance[m[K, const uint max_num_iteration, Matrix *ptr_K) {
+      |                                                                                                         [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:223:140:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmax_num_iteration[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  223 | void LqrController::SolveLQRProblem(const Matrix &A, const Matrix &B, const Matrix &Q, const Matrix &R, const double tolerance, [01;35m[Kconst uint max_num_iteration[m[K, Matrix *ptr_K) {
+      |                                                                                                                                 [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:223:167:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kptr_K[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  223 | void LqrController::SolveLQRProblem(const Matrix &A, const Matrix &B, const Matrix &Q, const Matrix &R, const double tolerance, const uint max_num_iteration, [01;35m[KMatrix *ptr_K[m[K) {
+      |                                                                                                                                                               [01;35m[K~~~~~~~~^~~~~[m[K

@@ -1,0 +1,25 @@
+[100%] Built target lqr_lateral_pid_longitudinal
+-- Install configuration: ""
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/lib/lqr_controller/lqr_lateral_pid_longitudinal
+-- Set runtime path of "/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/lib/lqr_controller/lqr_lateral_pid_longitudinal" to ""
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller//launch
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller//launch/lqr_launch.py
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller//config
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller//config/lqr_parameters_configuration.yaml
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller//rviz
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller//rviz/lqr_vis.rviz
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/ament_index/resource_index/package_run_dependencies/lqr_controller
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/ament_index/resource_index/parent_prefix_path/lqr_controller
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/environment/ament_prefix_path.sh
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/environment/ament_prefix_path.dsv
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/environment/path.sh
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/environment/path.dsv
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/local_setup.bash
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/local_setup.sh
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/local_setup.zsh
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/local_setup.dsv
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/package.dsv
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/ament_index/resource_index/packages/lqr_controller
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/cmake/lqr_controllerConfig.cmake
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/cmake/lqr_controllerConfig-version.cmake
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/package.xml

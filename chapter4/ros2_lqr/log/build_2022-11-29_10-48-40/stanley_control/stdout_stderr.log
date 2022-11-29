@@ -1,0 +1,19 @@
+[100%] Built target stanley_control
+-- Install configuration: ""
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/lib/stanley_control/stanley_control
+-- Set runtime path of "/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/lib/stanley_control/stanley_control" to ""
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/ament_index/resource_index/package_run_dependencies/stanley_control
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/ament_index/resource_index/parent_prefix_path/stanley_control
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/environment/ament_prefix_path.sh
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/environment/ament_prefix_path.dsv
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/environment/path.sh
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/environment/path.dsv
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/local_setup.bash
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/local_setup.sh
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/local_setup.zsh
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/local_setup.dsv
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/package.dsv
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/ament_index/resource_index/packages/stanley_control
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/cmake/stanley_controlConfig.cmake
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/cmake/stanley_controlConfig-version.cmake
+-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/package.xml

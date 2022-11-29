@@ -1,0 +1,16 @@
+/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/lib/stanley_control/stanley_control
+/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/ament_index/resource_index/package_run_dependencies/stanley_control
+/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/ament_index/resource_index/parent_prefix_path/stanley_control
+/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/environment/ament_prefix_path.sh
+/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/environment/ament_prefix_path.dsv
+/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/environment/path.sh
+/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/environment/path.dsv
+/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/local_setup.bash
+/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/local_setup.sh
+/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/local_setup.zsh
+/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/local_setup.dsv
+/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/package.dsv
+/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/ament_index/resource_index/packages/stanley_control
+/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/cmake/stanley_controlConfig.cmake
+/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/cmake/stanley_controlConfig-version.cmake
+/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/package.xml

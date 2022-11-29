@@ -1,0 +1,4 @@
+Invoking command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_msgs': /usr/bin/cmake --build /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_msgs -- -j16 -l16
+Invoked command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_msgs' returned '0': /usr/bin/cmake --build /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_msgs -- -j16 -l16
+Invoking command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_msgs': /usr/bin/cmake --install /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_msgs
+Invoked command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_msgs' returned '0': /usr/bin/cmake --install /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_msgs

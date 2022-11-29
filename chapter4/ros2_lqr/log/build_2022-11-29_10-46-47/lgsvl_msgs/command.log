@@ -1,0 +1,1 @@
+Invoking command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_msgs': /usr/bin/cmake /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lgsvl_msgs -DCMAKE_INSTALL_PREFIX=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs

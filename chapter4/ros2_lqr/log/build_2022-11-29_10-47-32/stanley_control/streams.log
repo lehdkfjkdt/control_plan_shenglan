@@ -1,0 +1,79 @@
+[0.052s] Invoking command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/stanley_control': AMENT_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/stanley_control -DCMAKE_INSTALL_PREFIX=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control
+[0.162s] -- The C compiler identification is GNU 9.4.0
+[0.266s] -- The CXX compiler identification is GNU 9.4.0
+[0.279s] -- Check for working C compiler: /usr/bin/cc
+[0.430s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.433s] -- Detecting C compiler ABI info
+[0.580s] -- Detecting C compiler ABI info - done
+[0.608s] -- Detecting C compile features
+[0.609s] -- Detecting C compile features - done
+[0.612s] -- Check for working CXX compiler: /usr/bin/c++
+[0.758s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.765s] -- Detecting CXX compiler ABI info
+[0.928s] -- Detecting CXX compiler ABI info - done
+[0.944s] -- Detecting CXX compile features
+[0.944s] -- Detecting CXX compile features - done
+[0.947s] -- Found ament_cmake: 1.5.1 (/opt/ros/rolling/share/ament_cmake/cmake)
+[1.178s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[1.326s] -- Found std_msgs: 4.6.0 (/opt/ros/rolling/share/std_msgs/cmake)
+[1.399s] -- Found rosidl_generator_c: 3.3.0 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[1.420s] -- Found rosidl_generator_cpp: 3.3.0 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[1.444s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.489s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.588s] -- Found nav_msgs: 4.6.0 (/opt/ros/rolling/share/nav_msgs/cmake)
+[1.802s] -- Found visualization_msgs: 4.6.0 (/opt/ros/rolling/share/visualization_msgs/cmake)
+[2.177s] -- Found rclcpp: 17.1.0 (/opt/ros/rolling/share/rclcpp/cmake)
+[2.289s] -- Found rmw_implementation_cmake: 6.3.1 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[2.292s] -- Found rmw_cyclonedds_cpp: 1.4.1 (/opt/ros/rolling/share/rmw_cyclonedds_cpp/cmake)
+[2.355s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.368s] -- Looking for pthread.h
+[2.541s] -- Looking for pthread.h - found
+[2.541s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.668s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.669s] -- Looking for pthread_create in pthreads
+[2.811s] -- Looking for pthread_create in pthreads - not found
+[2.812s] -- Looking for pthread_create in pthread
+[2.961s] -- Looking for pthread_create in pthread - found
+[2.963s] -- Found Threads: TRUE  
+[3.281s] -- Found tf2: 0.27.0 (/opt/ros/rolling/share/tf2/cmake)
+[3.308s] -- Found tf2_ros: 0.27.0 (/opt/ros/rolling/share/tf2_ros/cmake)
+[4.163s] -- Found tf2_geometry_msgs: 0.27.0 (/opt/ros/rolling/share/tf2_geometry_msgs/cmake)
+[4.181s] -- Found eigen3_cmake_module: 0.2.1 (/opt/ros/rolling/share/eigen3_cmake_module/cmake)
+[4.184s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[4.184s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.212s] -- Found lgsvl_msgs: 0.0.4 (/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/cmake)
+[4.465s] -- Found ament_lint_auto: 0.13.2 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[4.582s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.584s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.584s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/stanley_control/include>
+[4.584s] -- Configured cppcheck exclude dirs and/or files: 
+[4.586s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.586s] -- Configured cpplint exclude dirs and/or files: 
+[4.587s] -- Added test 'lint_cmake' to check CMake code style
+[4.589s] -- Added test 'uncrustify' to check C / C++ code style
+[4.589s] -- Configured uncrustify additional arguments: 
+[4.590s] -- Added test 'xmllint' to check XML markup files
+[4.595s] -- Configuring done
+[4.619s] -- Generating done
+[4.622s] -- Build files have been written to: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/stanley_control
+[4.636s] Invoked command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/stanley_control' returned '0': AMENT_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/stanley_control -DCMAKE_INSTALL_PREFIX=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control
+[4.642s] Invoking command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/stanley_control': AMENT_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/stanley_control -- -j16 -l16
+[4.733s] [35m[1mScanning dependencies of target stanley_control[0m
+[4.915s] [ 20%] [32mBuilding CXX object CMakeFiles/stanley_control.dir/src/pid_controller.cpp.o[0m
+[4.915s] [ 40%] [32mBuilding CXX object CMakeFiles/stanley_control.dir/src/stanley_controller.cpp.o[0m
+[4.916s] [ 60%] [32mBuilding CXX object CMakeFiles/stanley_control.dir/src/lat_lon_coupled_controller.cpp.o[0m
+[4.917s] [ 80%] [32mBuilding CXX object CMakeFiles/stanley_control.dir/src/reference_line.cpp.o[0m
+[5.412s] In file included from [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/stanley_control/include/stanely_control/common.h:19[m[K,
+[5.413s]                  from [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/stanley_control/include/stanely_control/lat_lon_coupled_controller.h:4[m[K,
+[5.413s]                  from [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/stanley_control/src/lat_lon_coupled_controller.cpp:1[m[K:
+[5.413s] [01m[K/opt/ros/rolling/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+[5.413s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[5.413s]       |  [01;35m[K^~~~~~~[m[K
+[5.567s] In file included from [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/stanley_control/include/stanely_control/common.h:19[m[K,
+[5.568s]                  from [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/stanley_control/include/stanely_control/stanely_controller.h:10[m[K,
+[5.568s]                  from [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/stanley_control/src/stanley_controller.cpp:1[m[K:
+[5.568s] [01m[K/opt/ros/rolling/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+[5.568s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[5.568s]       |  [01;35m[K^~~~~~~[m[K
+[18.500s] [100%] [32m[1mLinking CXX executable stanley_control[0m
+[19.224s] [100%] Built target stanley_control

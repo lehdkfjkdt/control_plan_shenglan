@@ -1,0 +1,4 @@
+source;share/lgsvl_bridge_galactic/local_setup.bash
+source;share/lgsvl_bridge_galactic/local_setup.dsv
+source;share/lgsvl_bridge_galactic/local_setup.sh
+source;share/lgsvl_bridge_galactic/local_setup.zsh

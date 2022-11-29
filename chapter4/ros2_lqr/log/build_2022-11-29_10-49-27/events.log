@@ -1,0 +1,742 @@
+[0.000000] (-) TimerEvent: {}
+[0.012066] (lgsvl_msgs) JobQueued: {'identifier': 'lgsvl_msgs', 'dependencies': OrderedDict()}
+[0.012498] (lgsvl_bridge_galactic) JobQueued: {'identifier': 'lgsvl_bridge_galactic', 'dependencies': OrderedDict([('lgsvl_msgs', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs')])}
+[0.012751] (lqr_controller) JobQueued: {'identifier': 'lqr_controller', 'dependencies': OrderedDict([('lgsvl_msgs', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs')])}
+[0.013147] (stanley_control) JobQueued: {'identifier': 'stanley_control', 'dependencies': OrderedDict([('lgsvl_msgs', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs')])}
+[0.013271] (vehicle_control) JobQueued: {'identifier': 'vehicle_control', 'dependencies': OrderedDict([('lgsvl_msgs', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs')])}
+[0.013369] (lgsvl_msgs) JobStarted: {'identifier': 'lgsvl_msgs'}
+[0.035774] (lgsvl_msgs) JobProgress: {'identifier': 'lgsvl_msgs', 'progress': 'cmake'}
+[0.036771] (lgsvl_msgs) JobProgress: {'identifier': 'lgsvl_msgs', 'progress': 'build'}
+[0.037706] (lgsvl_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_msgs', '--', '-j16', '-l16'], 'cwd': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_msgs', 'env': OrderedDict([('USER', 'hwl'), ('HOSTNAME', 'rollorin-docker'), ('ROS_PACKAGE_PATH', '/opt/ros/rolling/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib'), ('HOME', '/home/hwl'), ('CYCLONEDDS_URI', '/etc/cyclonedds_config.xml'), ('OLDPWD', '/home/hwl/per_workspace/control_plan/chapter4'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/rolling'), ('ROS_DISTRO', 'rolling'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/rolling/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/rolling/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/ipg/bin:/opt/ipg/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/rolling'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('PWD', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/userdata/07_zros/sovp-autosar-md-ros2/install/lib/python3.8/dist-packages:/opt/ros/rolling/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/rolling')]), 'shell': False}
+[0.099656] (-) TimerEvent: {}
+[0.198800] (lgsvl_msgs) StdoutLine: {'line': b'[ 12%] Built target lgsvl_msgs__rosidl_generator_c\n'}
+[0.199742] (-) TimerEvent: {}
+[0.201375] (lgsvl_msgs) StdoutLine: {'line': b'[ 12%] Built target lgsvl_msgs__cpp\n'}
+[0.219250] (lgsvl_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_lgsvl_msgs\n'}
+[0.259145] (lgsvl_msgs) StdoutLine: {'line': b'[ 24%] Built target lgsvl_msgs__rosidl_typesupport_cpp\n'}
+[0.259625] (lgsvl_msgs) StdoutLine: {'line': b'[ 36%] Built target lgsvl_msgs__rosidl_typesupport_c\n'}
+[0.264125] (lgsvl_msgs) StdoutLine: {'line': b'[ 48%] Built target lgsvl_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.272582] (lgsvl_msgs) StdoutLine: {'line': b'[ 60%] Built target lgsvl_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.275081] (lgsvl_msgs) StdoutLine: {'line': b'[ 72%] Built target lgsvl_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.286092] (lgsvl_msgs) StdoutLine: {'line': b'[ 84%] Built target lgsvl_msgs__rosidl_typesupport_introspection_c\n'}
+[0.299885] (-) TimerEvent: {}
+[0.336485] (lgsvl_msgs) StdoutLine: {'line': b'[ 84%] Built target lgsvl_msgs\n'}
+[0.400035] (-) TimerEvent: {}
+[0.400552] (lgsvl_msgs) StdoutLine: {'line': b'[ 85%] Built target lgsvl_msgs__py\n'}
+[0.500229] (-) TimerEvent: {}
+[0.505124] (lgsvl_msgs) StdoutLine: {'line': b'[ 96%] Built target lgsvl_msgs__rosidl_generator_py\n'}
+[0.510938] (lgsvl_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.511710] (lgsvl_msgs) StdoutLine: {'line': b'writing lgsvl_msgs.egg-info/PKG-INFO\n'}
+[0.512088] (lgsvl_msgs) StdoutLine: {'line': b'writing dependency_links to lgsvl_msgs.egg-info/dependency_links.txt\n'}
+[0.512422] (lgsvl_msgs) StdoutLine: {'line': b'writing top-level names to lgsvl_msgs.egg-info/top_level.txt\n'}
+[0.567752] (lgsvl_msgs) StdoutLine: {'line': b"reading manifest file 'lgsvl_msgs.egg-info/SOURCES.txt'\n"}
+[0.568506] (lgsvl_msgs) StdoutLine: {'line': b"writing manifest file 'lgsvl_msgs.egg-info/SOURCES.txt'\n"}
+[0.569471] (lgsvl_msgs) StdoutLine: {'line': b'[ 98%] Built target lgsvl_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.577800] (lgsvl_msgs) StdoutLine: {'line': b'[ 99%] Built target lgsvl_msgs__rosidl_typesupport_c__pyext\n'}
+[0.580514] (lgsvl_msgs) StdoutLine: {'line': b'[100%] Built target lgsvl_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.600372] (-) TimerEvent: {}
+[0.612535] (lgsvl_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_lgsvl_msgs_egg\n'}
+[0.638512] (lgsvl_msgs) CommandEnded: {'returncode': 0}
+[0.700524] (-) TimerEvent: {}
+[0.800979] (-) TimerEvent: {}
+[0.901995] (-) TimerEvent: {}
+[1.002523] (-) TimerEvent: {}
+[1.103108] (-) TimerEvent: {}
+[1.203714] (-) TimerEvent: {}
+[1.304575] (-) TimerEvent: {}
+[1.405151] (-) TimerEvent: {}
+[1.441681] (lgsvl_msgs) JobProgress: {'identifier': 'lgsvl_msgs', 'progress': 'install'}
+[1.473820] (lgsvl_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_msgs'], 'cwd': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_msgs', 'env': OrderedDict([('USER', 'hwl'), ('HOSTNAME', 'rollorin-docker'), ('ROS_PACKAGE_PATH', '/opt/ros/rolling/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib'), ('HOME', '/home/hwl'), ('CYCLONEDDS_URI', '/etc/cyclonedds_config.xml'), ('OLDPWD', '/home/hwl/per_workspace/control_plan/chapter4'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/rolling'), ('ROS_DISTRO', 'rolling'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/rolling/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/rolling/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/ipg/bin:/opt/ipg/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/rolling'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('PWD', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/userdata/07_zros/sovp-autosar-md-ros2/install/lib/python3.8/dist-packages:/opt/ros/rolling/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/rolling')]), 'shell': False}
+[1.489483] (lgsvl_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.490857] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/ament_index/resource_index/rosidl_interfaces/lgsvl_msgs\n'}
+[1.492389] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs\n'}
+[1.492714] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg\n'}
+[1.493490] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/bounding_box2_d.h\n'}
+[1.493790] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/vehicle_odometry.h\n'}
+[1.495669] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detection3_d_array.h\n'}
+[1.496334] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail\n'}
+[1.496619] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection3_d__functions.h\n'}
+[1.497728] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection3_d__struct.h\n'}
+[1.498010] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/signal__functions.c\n'}
+[1.498294] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/bounding_box3_d__functions.c\n'}
+[1.499571] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_odometry__functions.h\n'}
+[1.499806] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection2_d_array__functions.c\n'}
+[1.500109] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_state_data__functions.c\n'}
+[1.500535] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detected_radar_object__functions.c\n'}
+[1.500920] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/bounding_box2_d__struct.h\n'}
+[1.502135] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/signal_array__functions.c\n'}
+[1.502369] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection3_d_array__struct.h\n'}
+[1.502600] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection3_d__functions.c\n'}
+[1.502829] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection2_d_array__type_support.h\n'}
+[1.503085] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_odometry__functions.c\n'}
+[1.503314] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/can_bus_data__functions.h\n'}
+[1.503543] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detected_radar_object__struct.h\n'}
+[1.503765] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/ultrasonic__struct.h\n'}
+[1.503986] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detected_radar_object_array__struct.h\n'}
+[1.504212] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/signal_array__struct.h\n'}
+[1.504430] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_control_data__functions.h\n'}
+[1.504658] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_control_data__type_support.h\n'}
+[1.504908] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/can_bus_data__functions.c\n'}
+[1.505137] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/bounding_box2_d__functions.c\n'}
+[1.505370] (-) TimerEvent: {}
+[1.505728] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_control_data__functions.c\n'}
+[1.505988] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detected_radar_object_array__type_support.h\n'}
+[1.506215] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/can_bus_data__type_support.h\n'}
+[1.506442] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection3_d_array__type_support.h\n'}
+[1.506687] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/signal__struct.h\n'}
+[1.506911] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detected_radar_object__functions.h\n'}
+[1.507135] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/ultrasonic__functions.h\n'}
+[1.507360] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection3_d_array__functions.c\n'}
+[1.507595] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection2_d_array__struct.h\n'}
+[1.507821] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection3_d_array__functions.h\n'}
+[1.508047] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/bounding_box3_d__functions.h\n'}
+[1.508269] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/bounding_box2_d__type_support.h\n'}
+[1.508493] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection3_d__type_support.h\n'}
+[1.508717] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/bounding_box2_d__functions.h\n'}
+[1.508968] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection2_d__struct.h\n'}
+[1.509210] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_odometry__struct.h\n'}
+[1.509432] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection2_d__functions.h\n'}
+[1.509659] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection2_d__type_support.h\n'}
+[1.509885] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_control_data__struct.h\n'}
+[1.510111] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/signal_array__type_support.h\n'}
+[1.510343] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/ultrasonic__type_support.h\n'}
+[1.510570] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection2_d__functions.c\n'}
+[1.510790] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/bounding_box3_d__struct.h\n'}
+[1.511018] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_odometry__type_support.h\n'}
+[1.511233] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/signal_array__functions.h\n'}
+[1.511456] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/signal__functions.h\n'}
+[1.511679] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_state_data__type_support.h\n'}
+[1.511870] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detected_radar_object_array__functions.h\n'}
+[1.512017] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/signal__type_support.h\n'}
+[1.512166] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/can_bus_data__struct.h\n'}
+[1.512315] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/ultrasonic__functions.c\n'}
+[1.512462] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_state_data__functions.h\n'}
+[1.512614] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detected_radar_object__type_support.h\n'}
+[1.512762] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_state_data__struct.h\n'}
+[1.512924] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection2_d_array__functions.h\n'}
+[1.513075] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detected_radar_object_array__functions.c\n'}
+[1.513223] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/bounding_box3_d__type_support.h\n'}
+[1.513374] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/signal_array.h\n'}
+[1.513525] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/ultrasonic.h\n'}
+[1.513679] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.513825] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/signal.h\n'}
+[1.513984] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detection2_d_array.h\n'}
+[1.514135] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detected_radar_object.h\n'}
+[1.514282] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/can_bus_data.h\n'}
+[1.514429] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detected_radar_object_array.h\n'}
+[1.514579] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/bounding_box3_d.h\n'}
+[1.514726] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/vehicle_control_data.h\n'}
+[1.514873] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detection3_d.h\n'}
+[1.515019] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/vehicle_state_data.h\n'}
+[1.515166] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detection2_d.h\n'}
+[1.515314] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/environment/library_path.sh\n'}
+[1.515462] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/environment/library_path.dsv\n'}
+[1.515611] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/liblgsvl_msgs__rosidl_generator_c.so\n'}
+[1.515762] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs\n'}
+[1.515912] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg\n'}
+[1.516063] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail\n'}
+[1.516213] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection2_d_array__rosidl_typesupport_fastrtps_c.h\n'}
+[1.516359] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/signal__rosidl_typesupport_fastrtps_c.h\n'}
+[1.516505] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_fastrtps_c.h\n'}
+[1.516665] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection2_d__rosidl_typesupport_fastrtps_c.h\n'}
+[1.516827] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_odometry__rosidl_typesupport_fastrtps_c.h\n'}
+[1.516980] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection3_d_array__rosidl_typesupport_fastrtps_c.h\n'}
+[1.517130] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_c.h\n'}
+[1.517278] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_state_data__rosidl_typesupport_fastrtps_c.h\n'}
+[1.517427] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/signal_array__rosidl_typesupport_fastrtps_c.h\n'}
+[1.517574] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detected_radar_object__rosidl_typesupport_fastrtps_c.h\n'}
+[1.517722] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/ultrasonic__rosidl_typesupport_fastrtps_c.h\n'}
+[1.517868] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/can_bus_data__rosidl_typesupport_fastrtps_c.h\n'}
+[1.518027] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_control_data__rosidl_typesupport_fastrtps_c.h\n'}
+[1.518175] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detected_radar_object_array__rosidl_typesupport_fastrtps_c.h\n'}
+[1.518325] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection3_d__rosidl_typesupport_fastrtps_c.h\n'}
+[1.518474] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.518623] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/liblgsvl_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[1.518772] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs\n'}
+[1.518920] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg\n'}
+[1.519067] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detected_radar_object.hpp\n'}
+[1.519215] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail\n'}
+[1.519361] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/can_bus_data__traits.hpp\n'}
+[1.519510] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/bounding_box2_d__struct.hpp\n'}
+[1.519677] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_control_data__struct.hpp\n'}
+[1.519832] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection2_d_array__struct.hpp\n'}
+[1.519983] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detected_radar_object__struct.hpp\n'}
+[1.520138] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/signal_array__traits.hpp\n'}
+[1.520286] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_control_data__builder.hpp\n'}
+[1.520430] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection2_d__struct.hpp\n'}
+[1.520577] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_odometry__traits.hpp\n'}
+[1.520722] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/bounding_box2_d__builder.hpp\n'}
+[1.520880] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection2_d_array__builder.hpp\n'}
+[1.521030] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/ultrasonic__struct.hpp\n'}
+[1.521180] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection3_d__struct.hpp\n'}
+[1.521327] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/signal_array__builder.hpp\n'}
+[1.521473] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detected_radar_object_array__traits.hpp\n'}
+[1.521619] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection3_d__builder.hpp\n'}
+[1.521749] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/can_bus_data__builder.hpp\n'}
+[1.521856] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detected_radar_object__builder.hpp\n'}
+[1.521953] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_odometry__struct.hpp\n'}
+[1.522050] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/signal__struct.hpp\n'}
+[1.522147] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_odometry__builder.hpp\n'}
+[1.522245] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_state_data__builder.hpp\n'}
+[1.522347] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/can_bus_data__struct.hpp\n'}
+[1.522445] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_control_data__traits.hpp\n'}
+[1.522543] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection3_d_array__traits.hpp\n'}
+[1.522641] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/bounding_box3_d__traits.hpp\n'}
+[1.522737] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/signal__traits.hpp\n'}
+[1.522834] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/signal_array__struct.hpp\n'}
+[1.522930] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection3_d_array__builder.hpp\n'}
+[1.523027] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection3_d_array__struct.hpp\n'}
+[1.523128] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection2_d__builder.hpp\n'}
+[1.523226] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/ultrasonic__traits.hpp\n'}
+[1.523323] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detected_radar_object__traits.hpp\n'}
+[1.523422] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detected_radar_object_array__struct.hpp\n'}
+[1.523521] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/bounding_box3_d__builder.hpp\n'}
+[1.523619] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_state_data__traits.hpp\n'}
+[1.523714] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detected_radar_object_array__builder.hpp\n'}
+[1.523812] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/ultrasonic__builder.hpp\n'}
+[1.523909] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_state_data__struct.hpp\n'}
+[1.524026] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/signal__builder.hpp\n'}
+[1.524125] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection2_d__traits.hpp\n'}
+[1.524228] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection2_d_array__traits.hpp\n'}
+[1.524326] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/bounding_box2_d__traits.hpp\n'}
+[1.524433] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/bounding_box3_d__struct.hpp\n'}
+[1.524531] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection3_d__traits.hpp\n'}
+[1.524631] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/can_bus_data.hpp\n'}
+[1.524728] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/bounding_box3_d.hpp\n'}
+[1.524833] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detection3_d_array.hpp\n'}
+[1.524935] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detection2_d.hpp\n'}
+[1.525033] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/signal.hpp\n'}
+[1.525131] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/vehicle_control_data.hpp\n'}
+[1.525230] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/ultrasonic.hpp\n'}
+[1.525328] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detection2_d_array.hpp\n'}
+[1.525427] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detected_radar_object_array.hpp\n'}
+[1.525524] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/signal_array.hpp\n'}
+[1.525626] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/vehicle_state_data.hpp\n'}
+[1.525722] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/vehicle_odometry.hpp\n'}
+[1.525826] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/bounding_box2_d.hpp\n'}
+[1.525924] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detection3_d.hpp\n'}
+[1.526020] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs\n'}
+[1.526118] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg\n'}
+[1.526215] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.526319] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail\n'}
+[1.526417] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.526514] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_control_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.526611] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/signal__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.526708] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/dds_fastrtps\n'}
+[1.526806] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/can_bus_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.526903] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection3_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.527000] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection3_d_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.527106] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_odometry__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.527204] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detected_radar_object_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.527304] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection2_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.527401] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/ultrasonic__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.527498] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection2_d_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.527595] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/signal_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.527692] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_state_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.527790] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detected_radar_object__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.527892] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.527991] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/liblgsvl_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.528096] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs\n'}
+[1.528194] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg\n'}
+[1.528292] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail\n'}
+[1.528390] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/signal__type_support.c\n'}
+[1.528486] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/ultrasonic__rosidl_typesupport_introspection_c.h\n'}
+[1.528584] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection2_d__type_support.c\n'}
+[1.528681] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detected_radar_object_array__type_support.c\n'}
+[1.528780] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/can_bus_data__rosidl_typesupport_introspection_c.h\n'}
+[1.528887] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection3_d_array__type_support.c\n'}
+[1.528987] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/signal_array__type_support.c\n'}
+[1.529087] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection3_d_array__rosidl_typesupport_introspection_c.h\n'}
+[1.529187] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_state_data__type_support.c\n'}
+[1.529288] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_c.h\n'}
+[1.529384] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_control_data__type_support.c\n'}
+[1.529500] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_control_data__rosidl_typesupport_introspection_c.h\n'}
+[1.529598] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/can_bus_data__type_support.c\n'}
+[1.529696] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection2_d__rosidl_typesupport_introspection_c.h\n'}
+[1.529794] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection3_d__rosidl_typesupport_introspection_c.h\n'}
+[1.529893] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/signal_array__rosidl_typesupport_introspection_c.h\n'}
+[1.529996] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detected_radar_object__rosidl_typesupport_introspection_c.h\n'}
+[1.530095] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection3_d__type_support.c\n'}
+[1.530194] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/bounding_box3_d__type_support.c\n'}
+[1.530297] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/signal__rosidl_typesupport_introspection_c.h\n'}
+[1.530396] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_odometry__type_support.c\n'}
+[1.530494] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/ultrasonic__type_support.c\n'}
+[1.530592] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detected_radar_object_array__rosidl_typesupport_introspection_c.h\n'}
+[1.530691] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection2_d_array__rosidl_typesupport_introspection_c.h\n'}
+[1.530789] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detected_radar_object__type_support.c\n'}
+[1.530889] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_introspection_c.h\n'}
+[1.530986] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection2_d_array__type_support.c\n'}
+[1.531084] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/bounding_box2_d__type_support.c\n'}
+[1.531183] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_state_data__rosidl_typesupport_introspection_c.h\n'}
+[1.531281] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_odometry__rosidl_typesupport_introspection_c.h\n'}
+[1.531378] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.531476] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/liblgsvl_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.531573] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/liblgsvl_msgs__rosidl_typesupport_c.so\n'}
+[1.531670] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs\n'}
+[1.531767] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg\n'}
+[1.531876] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail\n'}
+[1.531974] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/bounding_box3_d__type_support.cpp\n'}
+[1.532073] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection2_d__type_support.cpp\n'}
+[1.532163] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_state_data__type_support.cpp\n'}
+[1.532233] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/ultrasonic__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.532306] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_control_data__type_support.cpp\n'}
+[1.532379] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/bounding_box2_d__type_support.cpp\n'}
+[1.532454] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/signal__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.532528] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection2_d_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.532600] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/ultrasonic__type_support.cpp\n'}
+[1.532672] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/signal_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.532746] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.532823] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_odometry__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.532895] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detected_radar_object__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.532970] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection3_d_array__type_support.cpp\n'}
+[1.533041] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/can_bus_data__type_support.cpp\n'}
+[1.533121] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/signal_array__type_support.cpp\n'}
+[1.533202] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection2_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.533279] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection3_d__type_support.cpp\n'}
+[1.533352] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_state_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.533425] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection3_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.533497] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_control_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.533569] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection2_d_array__type_support.cpp\n'}
+[1.533639] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detection3_d_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.533718] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/vehicle_odometry__type_support.cpp\n'}
+[1.533790] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detected_radar_object__type_support.cpp\n'}
+[1.533867] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detected_radar_object_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.533941] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/signal__type_support.cpp\n'}
+[1.534014] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/detected_radar_object_array__type_support.cpp\n'}
+[1.534091] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.534166] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/include/lgsvl_msgs/lgsvl_msgs/msg/detail/can_bus_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.534240] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/liblgsvl_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.534313] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/liblgsvl_msgs__rosidl_typesupport_cpp.so\n'}
+[1.534386] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/environment/pythonpath.sh\n'}
+[1.534461] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/environment/pythonpath.dsv\n'}
+[1.534532] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs-0.0.4-py3.8.egg-info\n'}
+[1.534604] (lgsvl_msgs) StdoutLine: {'line': b'-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs-0.0.4-py3.8.egg-info/SOURCES.txt\n'}
+[1.534681] (lgsvl_msgs) StdoutLine: {'line': b'-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs-0.0.4-py3.8.egg-info/top_level.txt\n'}
+[1.534752] (lgsvl_msgs) StdoutLine: {'line': b'-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs-0.0.4-py3.8.egg-info/PKG-INFO\n'}
+[1.534821] (lgsvl_msgs) StdoutLine: {'line': b'-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs-0.0.4-py3.8.egg-info/dependency_links.txt\n'}
+[1.534896] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs\n'}
+[1.534969] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/lgsvl_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.535040] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/lgsvl_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.535111] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/_lgsvl_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[1.535182] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/liblgsvl_msgs__rosidl_generator_py.so\n'}
+[1.535254] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/__init__.py\n'}
+[1.535328] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/_lgsvl_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.535401] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/_lgsvl_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.535474] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/msg\n'}
+[1.535555] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/msg/_vehicle_state_data_s.c\n'}
+[1.535628] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/msg/_detection3_d_s.c\n'}
+[1.535705] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/msg/_detection2_d.py\n'}
+[1.535772] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/msg/_signal_s.c\n'}
+[1.535843] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/msg/_vehicle_control_data_s.c\n'}
+[1.535920] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/msg/_vehicle_control_data.py\n'}
+[1.535998] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/msg/_detected_radar_object_s.c\n'}
+[1.536078] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/msg/_bounding_box2_d_s.c\n'}
+[1.536154] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/msg/_ultrasonic.py\n'}
+[1.536226] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/msg/_detection2_d_array_s.c\n'}
+[1.536301] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/msg/_detection3_d_array.py\n'}
+[1.536374] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/msg/_signal_array_s.c\n'}
+[1.536447] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/msg/_bounding_box3_d_s.c\n'}
+[1.536519] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/msg/_ultrasonic_s.c\n'}
+[1.536593] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/msg/_bounding_box2_d.py\n'}
+[1.536666] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/msg/_detection3_d.py\n'}
+[1.536741] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/msg/_can_bus_data_s.c\n'}
+[1.536830] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/msg/_signal_array.py\n'}
+[1.536904] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/msg/__init__.py\n'}
+[1.536977] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/msg/_bounding_box3_d.py\n'}
+[1.537049] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/msg/_vehicle_state_data.py\n'}
+[1.537123] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/msg/_detected_radar_object_array.py\n'}
+[1.537193] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/msg/_detection2_d_s.c\n'}
+[1.537267] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/msg/_detection2_d_array.py\n'}
+[1.537345] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/msg/_detection3_d_array_s.c\n'}
+[1.537419] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/msg/_detected_radar_object.py\n'}
+[1.537492] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/msg/_detected_radar_object_array_s.c\n'}
+[1.537573] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/msg/_can_bus_data.py\n'}
+[1.537651] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/msg/_vehicle_odometry.py\n'}
+[1.537728] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/msg/_signal.py\n'}
+[1.537804] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/msg/_vehicle_odometry_s.c\n'}
+[1.537878] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/lgsvl_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.555493] (lgsvl_msgs) StdoutLine: {'line': b"Listing '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs'...\n"}
+[1.555639] (lgsvl_msgs) StdoutLine: {'line': b"Listing '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/msg'...\n"}
+[1.561536] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/lgsvl_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.563843] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/lgsvl_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.565966] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages/lgsvl_msgs/lgsvl_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.567480] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/liblgsvl_msgs__rosidl_generator_py.so\n'}
+[1.568138] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/msg/BoundingBox2D.idl\n'}
+[1.568405] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/msg/BoundingBox3D.idl\n'}
+[1.568682] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/msg/CanBusData.idl\n'}
+[1.568996] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/msg/DetectedRadarObjectArray.idl\n'}
+[1.569253] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/msg/DetectedRadarObject.idl\n'}
+[1.569503] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/msg/Detection2D.idl\n'}
+[1.569797] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/msg/Detection2DArray.idl\n'}
+[1.570073] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/msg/Detection3D.idl\n'}
+[1.570330] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/msg/Detection3DArray.idl\n'}
+[1.570596] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/msg/Signal.idl\n'}
+[1.570863] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/msg/SignalArray.idl\n'}
+[1.571108] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/msg/Ultrasonic.idl\n'}
+[1.571355] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/msg/VehicleControlData.idl\n'}
+[1.571608] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/msg/VehicleStateData.idl\n'}
+[1.571886] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/msg/VehicleOdometry.idl\n'}
+[1.572167] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/msg/BoundingBox2D.msg\n'}
+[1.572475] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/msg/BoundingBox3D.msg\n'}
+[1.572776] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/msg/CanBusData.msg\n'}
+[1.573090] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/msg/DetectedRadarObjectArray.msg\n'}
+[1.573442] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/msg/DetectedRadarObject.msg\n'}
+[1.573734] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/msg/Detection2D.msg\n'}
+[1.574075] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/msg/Detection2DArray.msg\n'}
+[1.574330] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/msg/Detection3D.msg\n'}
+[1.574619] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/msg/Detection3DArray.msg\n'}
+[1.574904] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/msg/Signal.msg\n'}
+[1.575193] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/msg/SignalArray.msg\n'}
+[1.575519] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/msg/Ultrasonic.msg\n'}
+[1.575780] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/msg/VehicleControlData.msg\n'}
+[1.576016] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/msg/VehicleStateData.msg\n'}
+[1.576212] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/msg/VehicleOdometry.msg\n'}
+[1.576458] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/ament_index/resource_index/package_run_dependencies/lgsvl_msgs\n'}
+[1.576709] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/ament_index/resource_index/parent_prefix_path/lgsvl_msgs\n'}
+[1.576971] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/environment/ament_prefix_path.sh\n'}
+[1.577231] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/environment/ament_prefix_path.dsv\n'}
+[1.577426] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/environment/path.sh\n'}
+[1.577666] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/environment/path.dsv\n'}
+[1.577858] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/local_setup.bash\n'}
+[1.578145] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/local_setup.sh\n'}
+[1.578344] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/local_setup.zsh\n'}
+[1.578625] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/local_setup.dsv\n'}
+[1.578822] (lgsvl_msgs) StdoutLine: {'line': b'-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/package.dsv\n'}
+[1.579105] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/ament_index/resource_index/packages/lgsvl_msgs\n'}
+[1.579303] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/cmake/export_lgsvl_msgs__rosidl_generator_cExport.cmake\n'}
+[1.579546] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/cmake/export_lgsvl_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.579785] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/cmake/export_lgsvl_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.580026] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/cmake/export_lgsvl_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.580288] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/cmake/export_lgsvl_msgs__rosidl_generator_cppExport.cmake\n'}
+[1.580570] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/cmake/export_lgsvl_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.580873] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/cmake/export_lgsvl_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.581161] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/cmake/lgsvl_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.581449] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/cmake/lgsvl_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.581739] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/cmake/lgsvl_msgs__rosidl_typesupport_cExport.cmake\n'}
+[1.582019] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/cmake/lgsvl_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.582178] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/cmake/lgsvl_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.582326] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/cmake/lgsvl_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.582471] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/cmake/lgsvl_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[1.582617] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/cmake/lgsvl_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.582764] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/cmake/export_lgsvl_msgs__rosidl_generator_pyExport.cmake\n'}
+[1.582910] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/cmake/export_lgsvl_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.583056] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[1.583200] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.583346] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.583491] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.583637] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.583784] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.583930] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.584080] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/cmake/lgsvl_msgsConfig.cmake\n'}
+[1.584366] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/cmake/lgsvl_msgsConfig-version.cmake\n'}
+[1.585176] (lgsvl_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/package.xml\n'}
+[1.586759] (lgsvl_msgs) CommandEnded: {'returncode': 0}
+[1.605512] (-) TimerEvent: {}
+[1.706513] (-) TimerEvent: {}
+[1.807526] (-) TimerEvent: {}
+[1.908104] (-) TimerEvent: {}
+[2.008704] (-) TimerEvent: {}
+[2.109293] (-) TimerEvent: {}
+[2.209846] (-) TimerEvent: {}
+[2.310283] (-) TimerEvent: {}
+[2.411182] (-) TimerEvent: {}
+[2.443985] (lgsvl_msgs) JobEnded: {'identifier': 'lgsvl_msgs', 'rc': 0}
+[2.448860] (lgsvl_bridge_galactic) JobStarted: {'identifier': 'lgsvl_bridge_galactic'}
+[2.473708] (lqr_controller) JobStarted: {'identifier': 'lqr_controller'}
+[2.492330] (stanley_control) JobStarted: {'identifier': 'stanley_control'}
+[2.508245] (vehicle_control) JobStarted: {'identifier': 'vehicle_control'}
+[2.511836] (-) TimerEvent: {}
+[2.527020] (lgsvl_bridge_galactic) JobProgress: {'identifier': 'lgsvl_bridge_galactic', 'progress': 'cmake'}
+[2.527967] (lgsvl_bridge_galactic) JobProgress: {'identifier': 'lgsvl_bridge_galactic', 'progress': 'build'}
+[2.530059] (lgsvl_bridge_galactic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_bridge_galactic', '--', '-j16', '-l16'], 'cwd': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_bridge_galactic', 'env': OrderedDict([('USER', 'hwl'), ('HOSTNAME', 'rollorin-docker'), ('ROS_PACKAGE_PATH', '/opt/ros/rolling/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib'), ('HOME', '/home/hwl'), ('CYCLONEDDS_URI', '/etc/cyclonedds_config.xml'), ('OLDPWD', '/home/hwl/per_workspace/control_plan/chapter4'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/rolling'), ('ROS_DISTRO', 'rolling'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/rolling/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/rolling/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/ipg/bin:/opt/ipg/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:/opt/ros/rolling'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('PWD', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_bridge_galactic'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:/userdata/07_zros/sovp-autosar-md-ros2/install/lib/python3.8/dist-packages:/opt/ros/rolling/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:/opt/ros/rolling')]), 'shell': False}
+[2.535142] (lqr_controller) JobProgress: {'identifier': 'lqr_controller', 'progress': 'cmake'}
+[2.536616] (lqr_controller) JobProgress: {'identifier': 'lqr_controller', 'progress': 'build'}
+[2.540670] (lqr_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lqr_controller', '--', '-j16', '-l16'], 'cwd': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lqr_controller', 'env': OrderedDict([('USER', 'hwl'), ('HOSTNAME', 'rollorin-docker'), ('ROS_PACKAGE_PATH', '/opt/ros/rolling/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib'), ('HOME', '/home/hwl'), ('CYCLONEDDS_URI', '/etc/cyclonedds_config.xml'), ('OLDPWD', '/home/hwl/per_workspace/control_plan/chapter4'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/rolling'), ('ROS_DISTRO', 'rolling'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/rolling/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/rolling/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/ipg/bin:/opt/ipg/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:/opt/ros/rolling'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('PWD', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lqr_controller'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:/userdata/07_zros/sovp-autosar-md-ros2/install/lib/python3.8/dist-packages:/opt/ros/rolling/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:/opt/ros/rolling')]), 'shell': False}
+[2.547244] (stanley_control) JobProgress: {'identifier': 'stanley_control', 'progress': 'cmake'}
+[2.549534] (stanley_control) JobProgress: {'identifier': 'stanley_control', 'progress': 'build'}
+[2.553314] (stanley_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/stanley_control', '--', '-j16', '-l16'], 'cwd': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/stanley_control', 'env': OrderedDict([('USER', 'hwl'), ('HOSTNAME', 'rollorin-docker'), ('ROS_PACKAGE_PATH', '/opt/ros/rolling/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib'), ('HOME', '/home/hwl'), ('CYCLONEDDS_URI', '/etc/cyclonedds_config.xml'), ('OLDPWD', '/home/hwl/per_workspace/control_plan/chapter4'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/rolling'), ('ROS_DISTRO', 'rolling'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/rolling/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/rolling/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/ipg/bin:/opt/ipg/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:/opt/ros/rolling'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('PWD', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/stanley_control'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:/userdata/07_zros/sovp-autosar-md-ros2/install/lib/python3.8/dist-packages:/opt/ros/rolling/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:/opt/ros/rolling')]), 'shell': False}
+[2.564461] (vehicle_control) JobProgress: {'identifier': 'vehicle_control', 'progress': 'cmake'}
+[2.567463] (vehicle_control) JobProgress: {'identifier': 'vehicle_control', 'progress': 'build'}
+[2.568680] (vehicle_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/vehicle_control', '--', '-j16', '-l16'], 'cwd': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/vehicle_control', 'env': OrderedDict([('USER', 'hwl'), ('HOSTNAME', 'rollorin-docker'), ('ROS_PACKAGE_PATH', '/opt/ros/rolling/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib'), ('HOME', '/home/hwl'), ('CYCLONEDDS_URI', '/etc/cyclonedds_config.xml'), ('OLDPWD', '/home/hwl/per_workspace/control_plan/chapter4'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/rolling'), ('ROS_DISTRO', 'rolling'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/rolling/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/rolling/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/ipg/bin:/opt/ipg/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:/opt/ros/rolling'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('PWD', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/vehicle_control'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:/userdata/07_zros/sovp-autosar-md-ros2/install/lib/python3.8/dist-packages:/opt/ros/rolling/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:/opt/ros/rolling')]), 'shell': False}
+[2.612072] (-) TimerEvent: {}
+[2.642533] (vehicle_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.5.1 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[2.660030] (lgsvl_bridge_galactic) StdoutLine: {'line': b'[100%] Built target lgsvl_bridge\n'}
+[2.687046] (lgsvl_bridge_galactic) CommandEnded: {'returncode': 0}
+[2.712210] (-) TimerEvent: {}
+[2.731858] (lqr_controller) StdoutLine: {'line': b'[100%] Built target lqr_lateral_pid_longitudinal\n'}
+[2.745802] (lqr_controller) CommandEnded: {'returncode': 0}
+[2.750491] (stanley_control) StdoutLine: {'line': b'[100%] Built target stanley_control\n'}
+[2.758633] (lgsvl_bridge_galactic) JobProgress: {'identifier': 'lgsvl_bridge_galactic', 'progress': 'install'}
+[2.759289] (lgsvl_bridge_galactic) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_bridge_galactic'], 'cwd': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_bridge_galactic', 'env': OrderedDict([('USER', 'hwl'), ('HOSTNAME', 'rollorin-docker'), ('ROS_PACKAGE_PATH', '/opt/ros/rolling/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib'), ('HOME', '/home/hwl'), ('CYCLONEDDS_URI', '/etc/cyclonedds_config.xml'), ('OLDPWD', '/home/hwl/per_workspace/control_plan/chapter4'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/rolling'), ('ROS_DISTRO', 'rolling'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/rolling/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/rolling/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/ipg/bin:/opt/ipg/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:/opt/ros/rolling'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('PWD', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_bridge_galactic'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:/userdata/07_zros/sovp-autosar-md-ros2/install/lib/python3.8/dist-packages:/opt/ros/rolling/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:/opt/ros/rolling')]), 'shell': False}
+[2.767811] (stanley_control) CommandEnded: {'returncode': 0}
+[2.785815] (lgsvl_bridge_galactic) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.786268] (lgsvl_bridge_galactic) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/lib/lgsvl_bridge_galactic/lgsvl_bridge\n'}
+[2.786966] (lgsvl_bridge_galactic) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/ament_index/resource_index/package_run_dependencies/lgsvl_bridge_galactic\n'}
+[2.787316] (lgsvl_bridge_galactic) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/ament_index/resource_index/parent_prefix_path/lgsvl_bridge_galactic\n'}
+[2.787866] (lgsvl_bridge_galactic) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/lgsvl_bridge_galactic/environment/ament_prefix_path.sh\n'}
+[2.788066] (lgsvl_bridge_galactic) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/lgsvl_bridge_galactic/environment/ament_prefix_path.dsv\n'}
+[2.788329] (lgsvl_bridge_galactic) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/lgsvl_bridge_galactic/environment/path.sh\n'}
+[2.788598] (lgsvl_bridge_galactic) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/lgsvl_bridge_galactic/environment/path.dsv\n'}
+[2.788906] (lgsvl_bridge_galactic) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/lgsvl_bridge_galactic/local_setup.bash\n'}
+[2.789250] (lgsvl_bridge_galactic) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/lgsvl_bridge_galactic/local_setup.sh\n'}
+[2.789452] (lgsvl_bridge_galactic) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/lgsvl_bridge_galactic/local_setup.zsh\n'}
+[2.789637] (lgsvl_bridge_galactic) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/lgsvl_bridge_galactic/local_setup.dsv\n'}
+[2.789829] (lgsvl_bridge_galactic) StdoutLine: {'line': b'-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/lgsvl_bridge_galactic/package.dsv\n'}
+[2.790039] (lgsvl_bridge_galactic) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/ament_index/resource_index/packages/lgsvl_bridge_galactic\n'}
+[2.790408] (lgsvl_bridge_galactic) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/lgsvl_bridge_galactic/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.790582] (lgsvl_bridge_galactic) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/lgsvl_bridge_galactic/cmake/lgsvl_bridge_galacticConfig.cmake\n'}
+[2.791297] (lgsvl_bridge_galactic) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/lgsvl_bridge_galactic/cmake/lgsvl_bridge_galacticConfig-version.cmake\n'}
+[2.791995] (lgsvl_bridge_galactic) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/lgsvl_bridge_galactic/package.xml\n'}
+[2.796719] (lgsvl_bridge_galactic) CommandEnded: {'returncode': 0}
+[2.812296] (-) TimerEvent: {}
+[2.819631] (lqr_controller) JobProgress: {'identifier': 'lqr_controller', 'progress': 'install'}
+[2.820321] (lqr_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lqr_controller'], 'cwd': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lqr_controller', 'env': OrderedDict([('USER', 'hwl'), ('HOSTNAME', 'rollorin-docker'), ('ROS_PACKAGE_PATH', '/opt/ros/rolling/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib'), ('HOME', '/home/hwl'), ('CYCLONEDDS_URI', '/etc/cyclonedds_config.xml'), ('OLDPWD', '/home/hwl/per_workspace/control_plan/chapter4'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/rolling'), ('ROS_DISTRO', 'rolling'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/rolling/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/rolling/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/ipg/bin:/opt/ipg/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:/opt/ros/rolling'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('PWD', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lqr_controller'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:/userdata/07_zros/sovp-autosar-md-ros2/install/lib/python3.8/dist-packages:/opt/ros/rolling/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:/opt/ros/rolling')]), 'shell': False}
+[2.844532] (stanley_control) JobProgress: {'identifier': 'stanley_control', 'progress': 'install'}
+[2.845088] (lqr_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.849212] (stanley_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/stanley_control'], 'cwd': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/stanley_control', 'env': OrderedDict([('USER', 'hwl'), ('HOSTNAME', 'rollorin-docker'), ('ROS_PACKAGE_PATH', '/opt/ros/rolling/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib'), ('HOME', '/home/hwl'), ('CYCLONEDDS_URI', '/etc/cyclonedds_config.xml'), ('OLDPWD', '/home/hwl/per_workspace/control_plan/chapter4'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/rolling'), ('ROS_DISTRO', 'rolling'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/rolling/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/rolling/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/ipg/bin:/opt/ipg/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:/opt/ros/rolling'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('PWD', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/stanley_control'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:/userdata/07_zros/sovp-autosar-md-ros2/install/lib/python3.8/dist-packages:/opt/ros/rolling/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:/opt/ros/rolling')]), 'shell': False}
+[2.851634] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/lib/lqr_controller/lqr_lateral_pid_longitudinal\n'}
+[2.853055] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller//launch\n'}
+[2.858132] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller//launch/lqr_launch.py\n'}
+[2.859250] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller//config\n'}
+[2.859925] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller//config/lqr_parameters_configuration.yaml\n'}
+[2.860281] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller//rviz\n'}
+[2.861035] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller//rviz/lqr_vis.rviz\n'}
+[2.861411] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/ament_index/resource_index/package_run_dependencies/lqr_controller\n'}
+[2.861858] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/ament_index/resource_index/parent_prefix_path/lqr_controller\n'}
+[2.862195] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/environment/ament_prefix_path.sh\n'}
+[2.862616] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/environment/ament_prefix_path.dsv\n'}
+[2.863110] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/environment/path.sh\n'}
+[2.863487] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/environment/path.dsv\n'}
+[2.863829] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/local_setup.bash\n'}
+[2.864167] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/local_setup.sh\n'}
+[2.864520] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/local_setup.zsh\n'}
+[2.865210] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/local_setup.dsv\n'}
+[2.865597] (lqr_controller) StdoutLine: {'line': b'-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/package.dsv\n'}
+[2.865916] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/ament_index/resource_index/packages/lqr_controller\n'}
+[2.866257] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/cmake/lqr_controllerConfig.cmake\n'}
+[2.866583] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/cmake/lqr_controllerConfig-version.cmake\n'}
+[2.866869] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/package.xml\n'}
+[2.867215] (lqr_controller) CommandEnded: {'returncode': 0}
+[2.867978] (stanley_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.868398] (stanley_control) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/lib/stanley_control/stanley_control\n'}
+[2.868690] (stanley_control) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/ament_index/resource_index/package_run_dependencies/stanley_control\n'}
+[2.868972] (stanley_control) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/ament_index/resource_index/parent_prefix_path/stanley_control\n'}
+[2.869267] (stanley_control) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/environment/ament_prefix_path.sh\n'}
+[2.869529] (stanley_control) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/environment/ament_prefix_path.dsv\n'}
+[2.872257] (stanley_control) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/environment/path.sh\n'}
+[2.873156] (stanley_control) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/environment/path.dsv\n'}
+[2.873455] (stanley_control) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/local_setup.bash\n'}
+[2.873777] (stanley_control) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/local_setup.sh\n'}
+[2.874452] (stanley_control) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/local_setup.zsh\n'}
+[2.874914] (stanley_control) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/local_setup.dsv\n'}
+[2.875207] (stanley_control) StdoutLine: {'line': b'-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/package.dsv\n'}
+[2.875725] (stanley_control) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/ament_index/resource_index/packages/stanley_control\n'}
+[2.876311] (stanley_control) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/cmake/stanley_controlConfig.cmake\n'}
+[2.876660] (stanley_control) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/cmake/stanley_controlConfig-version.cmake\n'}
+[2.877422] (stanley_control) StdoutLine: {'line': b'-- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/package.xml\n'}
+[2.891552] (stanley_control) CommandEnded: {'returncode': 0}
+[2.912591] (-) TimerEvent: {}
+[2.920665] (lgsvl_bridge_galactic) JobEnded: {'identifier': 'lgsvl_bridge_galactic', 'rc': 0}
+[2.971412] (vehicle_control) StdoutLine: {'line': b'-- Found std_msgs: 4.6.0 (/opt/ros/rolling/share/std_msgs/cmake)\n'}
+[2.972871] (lqr_controller) JobEnded: {'identifier': 'lqr_controller', 'rc': 0}
+[2.997507] (stanley_control) JobEnded: {'identifier': 'stanley_control', 'rc': 0}
+[3.012725] (-) TimerEvent: {}
+[3.017023] (vehicle_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.3.0 (/opt/ros/rolling/share/rosidl_generator_c/cmake)\n'}
+[3.028434] (vehicle_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.3.0 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)\n'}
+[3.046765] (vehicle_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.071595] (vehicle_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.112900] (-) TimerEvent: {}
+[3.155788] (vehicle_control) StdoutLine: {'line': b'-- Found nav_msgs: 4.6.0 (/opt/ros/rolling/share/nav_msgs/cmake)\n'}
+[3.213101] (-) TimerEvent: {}
+[3.313688] (-) TimerEvent: {}
+[3.348592] (vehicle_control) StdoutLine: {'line': b'-- Found rclcpp: 17.1.0 (/opt/ros/rolling/share/rclcpp/cmake)\n'}
+[3.413830] (-) TimerEvent: {}
+[3.423234] (vehicle_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.3.1 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)\n'}
+[3.425367] (vehicle_control) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.4.1 (/opt/ros/rolling/share/rmw_cyclonedds_cpp/cmake)\n'}
+[3.476623] (vehicle_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[3.514023] (-) TimerEvent: {}
+[3.614620] (-) TimerEvent: {}
+[3.654562] (vehicle_control) StdoutLine: {'line': b'-- Found lgsvl_msgs: 0.0.4 (/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/cmake)\n'}
+[3.714814] (-) TimerEvent: {}
+[3.815420] (-) TimerEvent: {}
+[3.916050] (-) TimerEvent: {}
+[3.976689] (vehicle_control) StdoutLine: {'line': b'-- Found tf2: 0.27.0 (/opt/ros/rolling/share/tf2/cmake)\n'}
+[3.989535] (vehicle_control) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.27.0 (/opt/ros/rolling/share/tf2_geometry_msgs/cmake)\n'}
+[4.001225] (vehicle_control) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.2.1 (/opt/ros/rolling/share/eigen3_cmake_module/cmake)\n'}
+[4.002777] (vehicle_control) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[4.003091] (vehicle_control) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[4.016209] (-) TimerEvent: {}
+[4.116776] (-) TimerEvent: {}
+[4.217408] (-) TimerEvent: {}
+[4.318107] (-) TimerEvent: {}
+[4.418720] (-) TimerEvent: {}
+[4.483475] (vehicle_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.13.2 (/opt/ros/rolling/share/ament_lint_auto/cmake)\n'}
+[4.518866] (-) TimerEvent: {}
+[4.590450] (vehicle_control) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.593270] (vehicle_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.593766] (vehicle_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/vehicle_control/include>\n'}
+[4.594060] (vehicle_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.595447] (vehicle_control) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.595695] (vehicle_control) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.596396] (vehicle_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.598285] (vehicle_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.598690] (vehicle_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.599027] (vehicle_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.603692] (vehicle_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.619038] (-) TimerEvent: {}
+[4.622641] (vehicle_control) StdoutLine: {'line': b'-- Generating done\n'}
+[4.624893] (vehicle_control) StdoutLine: {'line': b'-- Build files have been written to: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/vehicle_control\n'}
+[4.683540] (vehicle_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vehicle_control_node\x1b[0m\n'}
+[4.719195] (-) TimerEvent: {}
+[4.735008] (vehicle_control) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/vehicle_control_node.dir/src/reference_line.cpp.o\x1b[0m\n'}
+[4.735618] (vehicle_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/vehicle_control_node.dir/src/vehicle_control.cpp.o\x1b[0m\n'}
+[4.736548] (vehicle_control) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/vehicle_control_node.dir/src/pid_controller.cpp.o\x1b[0m\n'}
+[4.819393] (-) TimerEvent: {}
+[4.920018] (-) TimerEvent: {}
+[5.020645] (-) TimerEvent: {}
+[5.121331] (-) TimerEvent: {}
+[5.121946] (vehicle_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/vehicle_control/include/vehicle_control/common.h:19\x1b[m\x1b[K,\n'}
+[5.122401] (vehicle_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/vehicle_control/src/vehicle_control.cpp:1\x1b[m\x1b[K:\n'}
+[5.122661] (vehicle_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/rolling/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K-Wcpp\x1b[m\x1b[K]\n'}
+[5.122920] (vehicle_control) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[5.123150] (vehicle_control) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.221482] (-) TimerEvent: {}
+[5.322056] (-) TimerEvent: {}
+[5.422622] (-) TimerEvent: {}
+[5.523235] (-) TimerEvent: {}
+[5.623921] (-) TimerEvent: {}
+[5.724541] (-) TimerEvent: {}
+[5.825226] (-) TimerEvent: {}
+[5.925806] (-) TimerEvent: {}
+[6.026375] (-) TimerEvent: {}
+[6.126990] (-) TimerEvent: {}
+[6.227616] (-) TimerEvent: {}
+[6.328246] (-) TimerEvent: {}
+[6.428905] (-) TimerEvent: {}
+[6.529527] (-) TimerEvent: {}
+[6.630110] (-) TimerEvent: {}
+[6.730735] (-) TimerEvent: {}
+[6.831354] (-) TimerEvent: {}
+[6.931970] (-) TimerEvent: {}
+[7.032631] (-) TimerEvent: {}
+[7.133290] (-) TimerEvent: {}
+[7.233881] (-) TimerEvent: {}
+[7.334497] (-) TimerEvent: {}
+[7.435172] (-) TimerEvent: {}
+[7.535809] (-) TimerEvent: {}
+[7.636428] (-) TimerEvent: {}
+[7.737034] (-) TimerEvent: {}
+[7.837651] (-) TimerEvent: {}
+[7.938282] (-) TimerEvent: {}
+[8.038853] (-) TimerEvent: {}
+[8.139604] (-) TimerEvent: {}
+[8.240243] (-) TimerEvent: {}
+[8.340920] (-) TimerEvent: {}
+[8.441566] (-) TimerEvent: {}
+[8.542169] (-) TimerEvent: {}
+[8.642823] (-) TimerEvent: {}
+[8.743483] (-) TimerEvent: {}
+[8.844120] (-) TimerEvent: {}
+[8.944722] (-) TimerEvent: {}
+[9.045390] (-) TimerEvent: {}
+[9.146006] (-) TimerEvent: {}
+[9.246635] (-) TimerEvent: {}
+[9.347265] (-) TimerEvent: {}
+[9.447897] (-) TimerEvent: {}
+[9.548525] (-) TimerEvent: {}
+[9.649177] (-) TimerEvent: {}
+[9.749796] (-) TimerEvent: {}
+[9.850421] (-) TimerEvent: {}
+[9.951050] (-) TimerEvent: {}
+[10.051670] (-) TimerEvent: {}
+[10.152299] (-) TimerEvent: {}
+[10.252940] (-) TimerEvent: {}
+[10.353529] (-) TimerEvent: {}
+[10.454105] (-) TimerEvent: {}
+[10.554686] (-) TimerEvent: {}
+[10.655250] (-) TimerEvent: {}
+[10.755823] (-) TimerEvent: {}
+[10.856440] (-) TimerEvent: {}
+[10.957114] (-) TimerEvent: {}
+[11.057698] (-) TimerEvent: {}
+[11.158265] (-) TimerEvent: {}
+[11.258903] (-) TimerEvent: {}
+[11.359547] (-) TimerEvent: {}
+[11.460169] (-) TimerEvent: {}
+[11.560783] (-) TimerEvent: {}
+[11.661416] (-) TimerEvent: {}
+[11.762030] (-) TimerEvent: {}
+[11.862650] (-) TimerEvent: {}
+[11.963276] (-) TimerEvent: {}
+[12.063888] (-) TimerEvent: {}
+[12.164496] (-) TimerEvent: {}
+[12.265140] (-) TimerEvent: {}
+[12.365745] (-) TimerEvent: {}
+[12.466358] (-) TimerEvent: {}
+[12.566965] (-) TimerEvent: {}
+[12.667587] (-) TimerEvent: {}
+[12.768203] (-) TimerEvent: {}
+[12.868839] (-) TimerEvent: {}
+[12.969450] (-) TimerEvent: {}
+[13.070057] (-) TimerEvent: {}
+[13.170682] (-) TimerEvent: {}
+[13.271293] (-) TimerEvent: {}
+[13.371849] (-) TimerEvent: {}
+[13.472441] (-) TimerEvent: {}
+[13.573083] (-) TimerEvent: {}
+[13.673653] (-) TimerEvent: {}
+[13.774261] (-) TimerEvent: {}
+[13.874829] (-) TimerEvent: {}
+[13.975444] (-) TimerEvent: {}
+[14.076018] (-) TimerEvent: {}
+[14.176578] (-) TimerEvent: {}
+[14.277201] (-) TimerEvent: {}
+[14.377808] (-) TimerEvent: {}
+[14.478419] (-) TimerEvent: {}
+[14.578986] (-) TimerEvent: {}
+[14.679588] (-) TimerEvent: {}
+[14.780189] (-) TimerEvent: {}
+[14.880741] (-) TimerEvent: {}
+[14.981380] (-) TimerEvent: {}
+[15.081918] (-) TimerEvent: {}
+[15.182308] (-) TimerEvent: {}
+[15.282682] (-) TimerEvent: {}
+[15.383055] (-) TimerEvent: {}
+[15.483450] (-) TimerEvent: {}
+[15.583839] (-) TimerEvent: {}
+[15.684217] (-) TimerEvent: {}
+[15.738572] (vehicle_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable vehicle_control_node\x1b[0m\n'}
+[15.784427] (-) TimerEvent: {}
+[15.885099] (-) TimerEvent: {}
+[15.985679] (-) TimerEvent: {}
+[16.086299] (-) TimerEvent: {}
+[16.186908] (-) TimerEvent: {}
+[16.287505] (-) TimerEvent: {}
+[16.341010] (vehicle_control) StdoutLine: {'line': b'[100%] Built target vehicle_control_node\n'}
+[16.371031] (vehicle_control) CommandEnded: {'returncode': 0}
+[16.387747] (-) TimerEvent: {}
+[16.450502] (vehicle_control) JobProgress: {'identifier': 'vehicle_control', 'progress': 'install'}
+[16.457527] (vehicle_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/vehicle_control'], 'cwd': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/vehicle_control', 'env': OrderedDict([('USER', 'hwl'), ('HOSTNAME', 'rollorin-docker'), ('ROS_PACKAGE_PATH', '/opt/ros/rolling/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib'), ('HOME', '/home/hwl'), ('CYCLONEDDS_URI', '/etc/cyclonedds_config.xml'), ('OLDPWD', '/home/hwl/per_workspace/control_plan/chapter4'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/rolling'), ('ROS_DISTRO', 'rolling'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/rolling/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/rolling/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/ipg/bin:/opt/ipg/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:/opt/ros/rolling'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('PWD', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/vehicle_control'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:/userdata/07_zros/sovp-autosar-md-ros2/install/lib/python3.8/dist-packages:/opt/ros/rolling/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:/opt/ros/rolling')]), 'shell': False}
+[16.479832] (vehicle_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.480412] (vehicle_control) StdoutLine: {'line': b'-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/lib/vehicle_control/vehicle_control_node\n'}
+[16.484792] (vehicle_control) StdoutLine: {'line': b'-- Set runtime path of "/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/lib/vehicle_control/vehicle_control_node" to ""\n'}
+[16.485482] (vehicle_control) StdoutLine: {'line': b'-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/ament_index/resource_index/package_run_dependencies/vehicle_control\n'}
+[16.485902] (vehicle_control) StdoutLine: {'line': b'-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/ament_index/resource_index/parent_prefix_path/vehicle_control\n'}
+[16.486238] (vehicle_control) StdoutLine: {'line': b'-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/environment/ament_prefix_path.sh\n'}
+[16.486568] (vehicle_control) StdoutLine: {'line': b'-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/environment/ament_prefix_path.dsv\n'}
+[16.486896] (vehicle_control) StdoutLine: {'line': b'-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/environment/path.sh\n'}
+[16.487230] (vehicle_control) StdoutLine: {'line': b'-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/environment/path.dsv\n'}
+[16.487506] (vehicle_control) StdoutLine: {'line': b'-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/local_setup.bash\n'}
+[16.487732] (-) TimerEvent: {}
+[16.488113] (vehicle_control) StdoutLine: {'line': b'-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/local_setup.sh\n'}
+[16.488390] (vehicle_control) StdoutLine: {'line': b'-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/local_setup.zsh\n'}
+[16.488615] (vehicle_control) StdoutLine: {'line': b'-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/local_setup.dsv\n'}
+[16.488866] (vehicle_control) StdoutLine: {'line': b'-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/package.dsv\n'}
+[16.489597] (vehicle_control) StdoutLine: {'line': b'-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/ament_index/resource_index/packages/vehicle_control\n'}
+[16.493012] (vehicle_control) StdoutLine: {'line': b'-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/cmake/vehicle_controlConfig.cmake\n'}
+[16.493847] (vehicle_control) StdoutLine: {'line': b'-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/cmake/vehicle_controlConfig-version.cmake\n'}
+[16.494188] (vehicle_control) StdoutLine: {'line': b'-- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/package.xml\n'}
+[16.495024] (vehicle_control) CommandEnded: {'returncode': 0}
+[16.588772] (-) TimerEvent: {}
+[16.593845] (vehicle_control) JobEnded: {'identifier': 'vehicle_control', 'rc': 0}
+[16.596520] (-) EventReactorShutdown: {}

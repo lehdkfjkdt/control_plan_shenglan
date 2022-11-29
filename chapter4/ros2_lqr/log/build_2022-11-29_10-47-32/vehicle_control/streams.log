@@ -1,0 +1,68 @@
+[0.043s] Invoking command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/vehicle_control': AMENT_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/vehicle_control -DCMAKE_INSTALL_PREFIX=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control
+[0.145s] -- The C compiler identification is GNU 9.4.0
+[0.246s] -- The CXX compiler identification is GNU 9.4.0
+[0.258s] -- Check for working C compiler: /usr/bin/cc
+[0.410s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.411s] -- Detecting C compiler ABI info
+[0.560s] -- Detecting C compiler ABI info - done
+[0.576s] -- Detecting C compile features
+[0.577s] -- Detecting C compile features - done
+[0.580s] -- Check for working CXX compiler: /usr/bin/c++
+[0.736s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.742s] -- Detecting CXX compiler ABI info
+[0.925s] -- Detecting CXX compiler ABI info - done
+[0.955s] -- Detecting CXX compile features
+[0.956s] -- Detecting CXX compile features - done
+[0.959s] -- Found ament_cmake: 1.5.1 (/opt/ros/rolling/share/ament_cmake/cmake)
+[1.178s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[1.322s] -- Found std_msgs: 4.6.0 (/opt/ros/rolling/share/std_msgs/cmake)
+[1.402s] -- Found rosidl_generator_c: 3.3.0 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[1.419s] -- Found rosidl_generator_cpp: 3.3.0 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[1.441s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.478s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.578s] -- Found nav_msgs: 4.6.0 (/opt/ros/rolling/share/nav_msgs/cmake)
+[1.811s] -- Found rclcpp: 17.1.0 (/opt/ros/rolling/share/rclcpp/cmake)
+[1.914s] -- Found rmw_implementation_cmake: 6.3.1 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[1.917s] -- Found rmw_cyclonedds_cpp: 1.4.1 (/opt/ros/rolling/share/rmw_cyclonedds_cpp/cmake)
+[1.979s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.993s] -- Looking for pthread.h
+[2.130s] -- Looking for pthread.h - found
+[2.130s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.284s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.284s] -- Looking for pthread_create in pthreads
+[2.409s] -- Looking for pthread_create in pthreads - not found
+[2.409s] -- Looking for pthread_create in pthread
+[2.546s] -- Looking for pthread_create in pthread - found
+[2.547s] -- Found Threads: TRUE  
+[2.823s] -- Found lgsvl_msgs: 0.0.4 (/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/cmake)
+[3.485s] -- Found tf2: 0.27.0 (/opt/ros/rolling/share/tf2/cmake)
+[3.522s] -- Found ament_lint_auto: 0.13.2 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[3.668s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.671s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.672s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/vehicle_control/include>
+[3.672s] -- Configured cppcheck exclude dirs and/or files: 
+[3.676s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.676s] -- Configured cpplint exclude dirs and/or files: 
+[3.678s] -- Added test 'lint_cmake' to check CMake code style
+[3.682s] -- Added test 'uncrustify' to check C / C++ code style
+[3.683s] -- Configured uncrustify additional arguments: 
+[3.684s] -- Added test 'xmllint' to check XML markup files
+[3.699s] -- Configuring done
+[3.732s] -- Generating done
+[3.736s] -- Build files have been written to: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/vehicle_control
+[3.749s] Invoked command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/vehicle_control' returned '0': AMENT_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/vehicle_control -DCMAKE_INSTALL_PREFIX=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control
+[3.753s] Invoking command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/vehicle_control': AMENT_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/vehicle_control -- -j16 -l16
+[3.842s] [35m[1mScanning dependencies of target vehicle_control_node[0m
+[4.003s] [ 25%] [32mBuilding CXX object CMakeFiles/vehicle_control_node.dir/src/pid_controller.cpp.o[0m
+[4.003s] [ 75%] [32mBuilding CXX object CMakeFiles/vehicle_control_node.dir/src/reference_line.cpp.o[0m
+[4.004s] [ 75%] [32mBuilding CXX object CMakeFiles/vehicle_control_node.dir/src/vehicle_control.cpp.o[0m
+[4.433s] In file included from [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/vehicle_control/src/vehicle_control.cpp:1[m[K:
+[4.433s] [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/vehicle_control/include/vehicle_control/common.h:17:10:[m[K [01;31m[Kfatal error: [m[Ktf2/LinearMath/Quaternion.h: No such file or directory
+[4.433s]    17 | #include [01;31m[K<tf2/LinearMath/Quaternion.h>[m[K
+[4.433s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.433s] compilation terminated.
+[4.438s] make[2]: *** [CMakeFiles/vehicle_control_node.dir/build.make:63: CMakeFiles/vehicle_control_node.dir/src/vehicle_control.cpp.o] Error 1
+[4.438s] make[2]: *** Waiting for unfinished jobs....
+[5.147s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/vehicle_control_node.dir/all] Error 2
+[5.147s] make: *** [Makefile:141: all] Error 2
+[5.150s] Invoked command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/vehicle_control' returned '2': AMENT_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/vehicle_control -- -j16 -l16

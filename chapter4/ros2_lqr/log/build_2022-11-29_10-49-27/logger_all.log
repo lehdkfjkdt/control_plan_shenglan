@@ -1,0 +1,414 @@
+[0.144s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.145s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fead09668e0>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fead09668e0>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fead0966eb0>)
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.169s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws) by extension 'ros'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws) by extensions ['cmake', 'python']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws) by extension 'cmake'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws) by extension 'python'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws) by extensions ['python_setup_py']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws) by extension 'python_setup_py'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src) by extension 'ros'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src) by extensions ['cmake', 'python']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src) by extension 'cmake'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src) by extension 'python'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src) by extensions ['python_setup_py']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src) by extension 'python_setup_py'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_bridge_galactic) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_bridge_galactic) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_bridge_galactic) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_bridge_galactic) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_bridge_galactic) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_bridge_galactic) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_bridge_galactic) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_bridge_galactic) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_bridge_galactic) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'lqr_galactic_wtih_todo_ws/src/lgsvl_bridge_galactic' with type 'ros.ament_cmake' and name 'lgsvl_bridge_galactic'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_msgs) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_msgs) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_msgs) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_msgs) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_msgs) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_msgs) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_msgs) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lgsvl_msgs) by extension 'ros'
+[0.195s] DEBUG:colcon.colcon_core.package_identification:Package 'lqr_galactic_wtih_todo_ws/src/lgsvl_msgs' with type 'ros.ament_cmake' and name 'lgsvl_msgs'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lqr_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lqr_controller) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lqr_controller) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lqr_controller) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lqr_controller) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lqr_controller) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lqr_controller) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lqr_controller) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/lqr_controller) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'lqr_galactic_wtih_todo_ws/src/lqr_controller' with type 'ros.ament_cmake' and name 'lqr_controller'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/stanley_control) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/stanley_control) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/stanley_control) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/stanley_control) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/stanley_control) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/stanley_control) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/stanley_control) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/stanley_control) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/stanley_control) by extension 'ros'
+[0.199s] DEBUG:colcon.colcon_core.package_identification:Package 'lqr_galactic_wtih_todo_ws/src/stanley_control' with type 'ros.ament_cmake' and name 'stanley_control'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/vehicle_control) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/vehicle_control) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/vehicle_control) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/vehicle_control) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/vehicle_control) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/vehicle_control) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/vehicle_control) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/vehicle_control) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(lqr_galactic_wtih_todo_ws/src/vehicle_control) by extension 'ros'
+[0.200s] DEBUG:colcon.colcon_core.package_identification:Package 'lqr_galactic_wtih_todo_ws/src/vehicle_control' with type 'ros.ament_cmake' and name 'vehicle_control'
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_msgs' build argument 'cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_msgs' build argument 'cmake_target' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.221s] DEBUG:colcon.colcon_core.verb:Building package 'lgsvl_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs', 'merge_install': False, 'path': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lgsvl_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_bridge_galactic' build argument 'cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_bridge_galactic' build argument 'cmake_target' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_bridge_galactic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_bridge_galactic' build argument 'cmake_clean_cache' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_bridge_galactic' build argument 'cmake_clean_first' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_bridge_galactic' build argument 'cmake_force_configure' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_bridge_galactic' build argument 'ament_cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_bridge_galactic' build argument 'catkin_cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'lgsvl_bridge_galactic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.222s] DEBUG:colcon.colcon_core.verb:Building package 'lgsvl_bridge_galactic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_bridge_galactic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic', 'merge_install': False, 'path': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lgsvl_bridge_galactic', 'symlink_install': False, 'test_result_base': None}
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'lqr_controller' build argument 'cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'lqr_controller' build argument 'cmake_target' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'lqr_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'lqr_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'lqr_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'lqr_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'lqr_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'lqr_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'lqr_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.223s] DEBUG:colcon.colcon_core.verb:Building package 'lqr_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lqr_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller', 'merge_install': False, 'path': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller', 'symlink_install': False, 'test_result_base': None}
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'stanley_control' build argument 'cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'stanley_control' build argument 'cmake_target' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'stanley_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'stanley_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'stanley_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'stanley_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'stanley_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'stanley_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'stanley_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.224s] DEBUG:colcon.colcon_core.verb:Building package 'stanley_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/stanley_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control', 'merge_install': False, 'path': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/stanley_control', 'symlink_install': False, 'test_result_base': None}
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'vehicle_control' build argument 'cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'vehicle_control' build argument 'cmake_target' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'vehicle_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'vehicle_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'vehicle_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'vehicle_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'vehicle_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'vehicle_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'vehicle_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.225s] DEBUG:colcon.colcon_core.verb:Building package 'vehicle_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/vehicle_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control', 'merge_install': False, 'path': '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/vehicle_control', 'symlink_install': False, 'test_result_base': None}
+[0.225s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.239s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.240s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lgsvl_msgs' with build type 'ament_cmake'
+[0.240s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lgsvl_msgs'
+[0.245s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.245s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.245s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_msgs': /usr/bin/cmake --build /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_msgs -- -j16 -l16
+[0.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_msgs' returned '0': /usr/bin/cmake --build /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_msgs -- -j16 -l16
+[1.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_msgs': /usr/bin/cmake --install /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_msgs
+[1.814s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lgsvl_msgs)
+[1.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_msgs' returned '0': /usr/bin/cmake --install /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_msgs
+[1.828s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs' for CMake module files
+[1.830s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs' for CMake config files
+[1.830s] Level 1:colcon.colcon_core.shell:create_environment_hook('lgsvl_msgs', 'cmake_prefix_path')
+[1.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/hook/cmake_prefix_path.ps1'
+[1.833s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/hook/cmake_prefix_path.dsv'
+[1.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/hook/cmake_prefix_path.sh'
+[1.837s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib'
+[1.837s] Level 1:colcon.colcon_core.shell:create_environment_hook('lgsvl_msgs', 'ld_library_path_lib')
+[1.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/hook/ld_library_path_lib.ps1'
+[1.839s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/hook/ld_library_path_lib.dsv'
+[1.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/hook/ld_library_path_lib.sh'
+[1.840s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/bin'
+[1.840s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/pkgconfig/lgsvl_msgs.pc'
+[1.841s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages'
+[1.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('lgsvl_msgs', 'pythonpath')
+[1.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/hook/pythonpath.ps1'
+[1.843s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/hook/pythonpath.dsv'
+[1.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/hook/pythonpath.sh'
+[1.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/package.ps1'
+[1.846s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/package.dsv'
+[1.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/package.sh'
+[1.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/package.bash'
+[1.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/package.zsh'
+[1.850s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/colcon-core/packages/lgsvl_msgs)
+[2.647s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lgsvl_msgs)
+[2.650s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs' for CMake module files
+[2.653s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs' for CMake config files
+[2.653s] Level 1:colcon.colcon_core.shell:create_environment_hook('lgsvl_msgs', 'cmake_prefix_path')
+[2.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/hook/cmake_prefix_path.ps1'
+[2.656s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/hook/cmake_prefix_path.dsv'
+[2.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/hook/cmake_prefix_path.sh'
+[2.658s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib'
+[2.659s] Level 1:colcon.colcon_core.shell:create_environment_hook('lgsvl_msgs', 'ld_library_path_lib')
+[2.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/hook/ld_library_path_lib.ps1'
+[2.660s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/hook/ld_library_path_lib.dsv'
+[2.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/hook/ld_library_path_lib.sh'
+[2.662s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/bin'
+[2.662s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/pkgconfig/lgsvl_msgs.pc'
+[2.662s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages'
+[2.663s] Level 1:colcon.colcon_core.shell:create_environment_hook('lgsvl_msgs', 'pythonpath')
+[2.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/hook/pythonpath.ps1'
+[2.664s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/hook/pythonpath.dsv'
+[2.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/hook/pythonpath.sh'
+[2.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/package.ps1'
+[2.668s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/package.dsv'
+[2.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/package.sh'
+[2.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/package.bash'
+[2.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/package.zsh'
+[2.671s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/colcon-core/packages/lgsvl_msgs)
+[2.671s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lgsvl_bridge_galactic' with build type 'ament_cmake'
+[2.672s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lgsvl_bridge_galactic'
+[2.673s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.673s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.701s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller' with build type 'ament_cmake'
+[2.702s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller'
+[2.703s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.704s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.720s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/stanley_control' with build type 'ament_cmake'
+[2.720s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/stanley_control'
+[2.721s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.721s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.736s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/vehicle_control' with build type 'ament_cmake'
+[2.736s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/vehicle_control'
+[2.737s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.737s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_bridge_galactic': AMENT_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_bridge_galactic -- -j16 -l16
+[2.773s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lqr_controller': AMENT_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lqr_controller -- -j16 -l16
+[2.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/stanley_control': AMENT_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/stanley_control -- -j16 -l16
+[2.801s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/vehicle_control': AMENT_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/vehicle_control -- -j16 -l16
+[2.916s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_bridge_galactic' returned '0': AMENT_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_bridge_galactic -- -j16 -l16
+[2.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lqr_controller' returned '0': AMENT_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lqr_controller -- -j16 -l16
+[2.991s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_bridge_galactic': AMENT_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_bridge_galactic
+[2.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/stanley_control' returned '0': AMENT_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/stanley_control -- -j16 -l16
+[3.020s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lgsvl_bridge_galactic)
+[3.024s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic' for CMake module files
+[3.025s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_bridge_galactic' returned '0': AMENT_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lgsvl_bridge_galactic
+[3.027s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic' for CMake config files
+[3.027s] Level 1:colcon.colcon_core.shell:create_environment_hook('lgsvl_bridge_galactic', 'cmake_prefix_path')
+[3.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/lgsvl_bridge_galactic/hook/cmake_prefix_path.ps1'
+[3.031s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/lgsvl_bridge_galactic/hook/cmake_prefix_path.dsv'
+[3.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/lgsvl_bridge_galactic/hook/cmake_prefix_path.sh'
+[3.033s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/lib'
+[3.033s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/bin'
+[3.034s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/lib/pkgconfig/lgsvl_bridge_galactic.pc'
+[3.034s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/lib/python3.8/site-packages'
+[3.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/lgsvl_bridge_galactic/package.ps1'
+[3.037s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/lgsvl_bridge_galactic/package.dsv'
+[3.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/lgsvl_bridge_galactic/package.sh'
+[3.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/lgsvl_bridge_galactic/package.bash'
+[3.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/lgsvl_bridge_galactic/package.zsh'
+[3.040s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/colcon-core/packages/lgsvl_bridge_galactic)
+[3.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lqr_controller': AMENT_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lqr_controller
+[3.078s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/stanley_control': AMENT_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/stanley_control
+[3.082s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lqr_controller)
+[3.085s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller' for CMake module files
+[3.092s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller' for CMake config files
+[3.095s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lqr_controller' returned '0': AMENT_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lqr_controller
+[3.097s] Level 1:colcon.colcon_core.shell:create_environment_hook('lqr_controller', 'cmake_prefix_path')
+[3.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/hook/cmake_prefix_path.ps1'
+[3.102s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/hook/cmake_prefix_path.dsv'
+[3.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/hook/cmake_prefix_path.sh'
+[3.105s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/lib'
+[3.106s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/bin'
+[3.106s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/lib/pkgconfig/lqr_controller.pc'
+[3.106s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/lib/python3.8/site-packages'
+[3.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/package.ps1'
+[3.108s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/package.dsv'
+[3.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/package.sh'
+[3.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/package.bash'
+[3.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/package.zsh'
+[3.111s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/colcon-core/packages/lqr_controller)
+[3.119s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stanley_control)
+[3.121s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control' for CMake module files
+[3.123s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/stanley_control' returned '0': AMENT_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/stanley_control
+[3.123s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control' for CMake config files
+[3.124s] Level 1:colcon.colcon_core.shell:create_environment_hook('stanley_control', 'cmake_prefix_path')
+[3.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/hook/cmake_prefix_path.ps1'
+[3.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/hook/cmake_prefix_path.dsv'
+[3.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/hook/cmake_prefix_path.sh'
+[3.127s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/lib'
+[3.127s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/bin'
+[3.127s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/lib/pkgconfig/stanley_control.pc'
+[3.128s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/lib/python3.8/site-packages'
+[3.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/package.ps1'
+[3.130s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/package.dsv'
+[3.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/package.sh'
+[3.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/package.bash'
+[3.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/package.zsh'
+[3.132s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/colcon-core/packages/stanley_control)
+[3.138s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lgsvl_bridge_galactic)
+[3.139s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic' for CMake module files
+[3.141s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic' for CMake config files
+[3.141s] Level 1:colcon.colcon_core.shell:create_environment_hook('lgsvl_bridge_galactic', 'cmake_prefix_path')
+[3.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/lgsvl_bridge_galactic/hook/cmake_prefix_path.ps1'
+[3.143s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/lgsvl_bridge_galactic/hook/cmake_prefix_path.dsv'
+[3.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/lgsvl_bridge_galactic/hook/cmake_prefix_path.sh'
+[3.144s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/lib'
+[3.144s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/bin'
+[3.144s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/lib/pkgconfig/lgsvl_bridge_galactic.pc'
+[3.144s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/lib/python3.8/site-packages'
+[3.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/lgsvl_bridge_galactic/package.ps1'
+[3.145s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/lgsvl_bridge_galactic/package.dsv'
+[3.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/lgsvl_bridge_galactic/package.sh'
+[3.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/lgsvl_bridge_galactic/package.bash'
+[3.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/lgsvl_bridge_galactic/package.zsh'
+[3.147s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_bridge_galactic/share/colcon-core/packages/lgsvl_bridge_galactic)
+[3.184s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lqr_controller)
+[3.186s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller' for CMake module files
+[3.188s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller' for CMake config files
+[3.188s] Level 1:colcon.colcon_core.shell:create_environment_hook('lqr_controller', 'cmake_prefix_path')
+[3.189s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/hook/cmake_prefix_path.ps1'
+[3.190s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/hook/cmake_prefix_path.dsv'
+[3.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/hook/cmake_prefix_path.sh'
+[3.192s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/lib'
+[3.192s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/bin'
+[3.193s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/lib/pkgconfig/lqr_controller.pc'
+[3.193s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/lib/python3.8/site-packages'
+[3.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/package.ps1'
+[3.196s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/package.dsv'
+[3.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/package.sh'
+[3.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/package.bash'
+[3.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/package.zsh'
+[3.200s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/colcon-core/packages/lqr_controller)
+[3.209s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stanley_control)
+[3.211s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control' for CMake module files
+[3.213s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control' for CMake config files
+[3.213s] Level 1:colcon.colcon_core.shell:create_environment_hook('stanley_control', 'cmake_prefix_path')
+[3.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/hook/cmake_prefix_path.ps1'
+[3.216s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/hook/cmake_prefix_path.dsv'
+[3.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/hook/cmake_prefix_path.sh'
+[3.218s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/lib'
+[3.218s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/bin'
+[3.218s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/lib/pkgconfig/stanley_control.pc'
+[3.219s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/lib/python3.8/site-packages'
+[3.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/package.ps1'
+[3.221s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/package.dsv'
+[3.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/package.sh'
+[3.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/package.bash'
+[3.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/stanley_control/package.zsh'
+[3.225s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/stanley_control/share/colcon-core/packages/stanley_control)
+[16.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/vehicle_control' returned '0': AMENT_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/vehicle_control -- -j16 -l16
+[16.687s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/vehicle_control': AMENT_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/vehicle_control
+[16.718s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vehicle_control)
+[16.720s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control' for CMake module files
+[16.722s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control' for CMake config files
+[16.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/vehicle_control' returned '0': AMENT_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/vehicle_control
+[16.724s] Level 1:colcon.colcon_core.shell:create_environment_hook('vehicle_control', 'cmake_prefix_path')
+[16.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/hook/cmake_prefix_path.ps1'
+[16.726s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/hook/cmake_prefix_path.dsv'
+[16.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/hook/cmake_prefix_path.sh'
+[16.727s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/lib'
+[16.727s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/bin'
+[16.727s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/lib/pkgconfig/vehicle_control.pc'
+[16.728s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/lib/python3.8/site-packages'
+[16.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/package.ps1'
+[16.730s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/package.dsv'
+[16.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/package.sh'
+[16.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/package.bash'
+[16.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/package.zsh'
+[16.732s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/colcon-core/packages/vehicle_control)
+[16.805s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vehicle_control)
+[16.808s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control' for CMake module files
+[16.809s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control' for CMake config files
+[16.810s] Level 1:colcon.colcon_core.shell:create_environment_hook('vehicle_control', 'cmake_prefix_path')
+[16.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/hook/cmake_prefix_path.ps1'
+[16.812s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/hook/cmake_prefix_path.dsv'
+[16.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/hook/cmake_prefix_path.sh'
+[16.814s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/lib'
+[16.814s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/bin'
+[16.814s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/lib/pkgconfig/vehicle_control.pc'
+[16.815s] Level 1:colcon.colcon_core.environment:checking '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/lib/python3.8/site-packages'
+[16.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/package.ps1'
+[16.818s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/package.dsv'
+[16.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/package.sh'
+[16.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/package.bash'
+[16.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/package.zsh'
+[16.821s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/colcon-core/packages/vehicle_control)
+[16.821s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.822s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.822s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.823s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.841s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[16.841s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.841s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.841s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.853s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[16.854s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.857s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/local_setup.ps1'
+[16.860s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/_local_setup_util_ps1.py'
+[16.865s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/setup.ps1'
+[16.869s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/local_setup.sh'
+[16.870s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/_local_setup_util_sh.py'
+[16.871s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/setup.sh'
+[16.874s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/local_setup.bash'
+[16.875s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/setup.bash'
+[16.878s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/local_setup.zsh'
+[16.879s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/setup.zsh'

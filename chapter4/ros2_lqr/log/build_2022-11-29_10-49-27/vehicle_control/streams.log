@@ -1,0 +1,64 @@
+[0.064s] Invoking command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/vehicle_control': AMENT_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/vehicle_control -- -j16 -l16
+[0.133s] -- Found ament_cmake: 1.5.1 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.463s] -- Found std_msgs: 4.6.0 (/opt/ros/rolling/share/std_msgs/cmake)
+[0.508s] -- Found rosidl_generator_c: 3.3.0 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[0.519s] -- Found rosidl_generator_cpp: 3.3.0 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[0.538s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.562s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.647s] -- Found nav_msgs: 4.6.0 (/opt/ros/rolling/share/nav_msgs/cmake)
+[0.839s] -- Found rclcpp: 17.1.0 (/opt/ros/rolling/share/rclcpp/cmake)
+[0.914s] -- Found rmw_implementation_cmake: 6.3.1 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[0.916s] -- Found rmw_cyclonedds_cpp: 1.4.1 (/opt/ros/rolling/share/rmw_cyclonedds_cpp/cmake)
+[0.967s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.145s] -- Found lgsvl_msgs: 0.0.4 (/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/share/lgsvl_msgs/cmake)
+[1.468s] -- Found tf2: 0.27.0 (/opt/ros/rolling/share/tf2/cmake)
+[1.480s] -- Found tf2_geometry_msgs: 0.27.0 (/opt/ros/rolling/share/tf2_geometry_msgs/cmake)
+[1.492s] -- Found eigen3_cmake_module: 0.2.1 (/opt/ros/rolling/share/eigen3_cmake_module/cmake)
+[1.493s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[1.494s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.974s] -- Found ament_lint_auto: 0.13.2 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[2.081s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.084s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.084s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/vehicle_control/include>
+[2.085s] -- Configured cppcheck exclude dirs and/or files: 
+[2.086s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.086s] -- Configured cpplint exclude dirs and/or files: 
+[2.087s] -- Added test 'lint_cmake' to check CMake code style
+[2.089s] -- Added test 'uncrustify' to check C / C++ code style
+[2.089s] -- Configured uncrustify additional arguments: 
+[2.090s] -- Added test 'xmllint' to check XML markup files
+[2.094s] -- Configuring done
+[2.113s] -- Generating done
+[2.116s] -- Build files have been written to: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/vehicle_control
+[2.174s] [35m[1mScanning dependencies of target vehicle_control_node[0m
+[2.226s] [ 25%] [32mBuilding CXX object CMakeFiles/vehicle_control_node.dir/src/reference_line.cpp.o[0m
+[2.226s] [ 50%] [32mBuilding CXX object CMakeFiles/vehicle_control_node.dir/src/vehicle_control.cpp.o[0m
+[2.227s] [ 75%] [32mBuilding CXX object CMakeFiles/vehicle_control_node.dir/src/pid_controller.cpp.o[0m
+[2.613s] In file included from [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/vehicle_control/include/vehicle_control/common.h:19[m[K,
+[2.613s]                  from [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/vehicle_control/src/vehicle_control.cpp:1[m[K:
+[2.613s] [01m[K/opt/ros/rolling/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+[2.614s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[2.614s]       |  [01;35m[K^~~~~~~[m[K
+[13.229s] [100%] [32m[1mLinking CXX executable vehicle_control_node[0m
+[13.832s] [100%] Built target vehicle_control_node
+[13.863s] Invoked command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/vehicle_control' returned '0': AMENT_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/vehicle_control -- -j16 -l16
+[13.949s] Invoking command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/vehicle_control': AMENT_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/vehicle_control
+[13.971s] -- Install configuration: ""
+[13.971s] -- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/lib/vehicle_control/vehicle_control_node
+[13.976s] -- Set runtime path of "/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/lib/vehicle_control/vehicle_control_node" to ""
+[13.976s] -- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/ament_index/resource_index/package_run_dependencies/vehicle_control
+[13.977s] -- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/ament_index/resource_index/parent_prefix_path/vehicle_control
+[13.977s] -- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/environment/ament_prefix_path.sh
+[13.977s] -- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/environment/ament_prefix_path.dsv
+[13.978s] -- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/environment/path.sh
+[13.978s] -- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/environment/path.dsv
+[13.978s] -- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/local_setup.bash
+[13.979s] -- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/local_setup.sh
+[13.979s] -- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/local_setup.zsh
+[13.979s] -- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/local_setup.dsv
+[13.980s] -- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/package.dsv
+[13.981s] -- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/ament_index/resource_index/packages/vehicle_control
+[13.984s] -- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/cmake/vehicle_controlConfig.cmake
+[13.985s] -- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/cmake/vehicle_controlConfig-version.cmake
+[13.985s] -- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/vehicle_control/share/vehicle_control/package.xml
+[13.986s] Invoked command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/vehicle_control' returned '0': AMENT_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/vehicle_control
