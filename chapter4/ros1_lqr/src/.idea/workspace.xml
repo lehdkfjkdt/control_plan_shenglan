@@ -1,0 +1,1015 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Project" targetName="_rosapi_generate_messages_check_deps_ServicesForType" />
+      <config projectName="Project" targetName="tf2_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="gmock" />
+      <config projectName="Project" targetName="run_tests_rosbridge_library_rostest" />
+      <config projectName="Project" targetName="roscpp_generate_messages_cpp" />
+      <config projectName="Project" targetName="_rosapi_generate_messages_check_deps_Nodes" />
+      <config projectName="Project" targetName="gtest_main" />
+      <config projectName="Project" targetName="run_tests_rosbridge_library_rostest_test_internal_test_internal.test" />
+      <config projectName="Project" targetName="_rosapi_generate_messages_check_deps_HasParam" />
+      <config projectName="Project" targetName="_rosapi_generate_messages_check_deps_ServiceResponseDetails" />
+      <config projectName="Project" targetName="rosbridge_library_generate_messages_py" />
+      <config projectName="Project" targetName="rosapi_generate_messages_cpp" />
+      <config projectName="Project" targetName="tf_generate_messages_eus" />
+      <config projectName="Project" targetName="_run_tests_rosbridge_library" />
+      <config projectName="Project" targetName="rosapi_gencpp" />
+      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="doxygen" />
+      <config projectName="Project" targetName="_rosbridge_library_generate_messages_check_deps_TestTimeArray" />
+      <config projectName="Project" targetName="actionlib_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="tf2_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="_rosapi_generate_messages_check_deps_ServiceRequestDetails" />
+      <config projectName="Project" targetName="geometry_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="_rosapi_generate_messages_check_deps_GetParam" />
+      <config projectName="Project" targetName="clean_test_results" />
+      <config projectName="Project" targetName="rosapi_gennodejs" />
+      <config projectName="Project" targetName="lgsvl_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="actionlib_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="geometry_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="lgsvl_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="sensor_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="std_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="_rosapi_generate_messages_check_deps_Publishers" />
+      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="rosapi_generate_messages_eus" />
+      <config projectName="Project" targetName="rosapi_generate_messages" />
+      <config projectName="Project" targetName="_rosbridge_library_generate_messages_check_deps_TestHeaderArray" />
+      <config projectName="Project" targetName="rosapi_generate_messages_nodejs" />
+      <config projectName="Project" targetName="_rosbridge_library_generate_messages_check_deps_TestUInt8" />
+      <config projectName="Project" targetName="actionlib_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="_rosapi_generate_messages_check_deps_ServiceNode" />
+      <config projectName="Project" targetName="_rosapi_generate_messages_check_deps_Topics" />
+      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="_rosapi_generate_messages_check_deps_SearchParam" />
+      <config projectName="Project" targetName="_rosapi_generate_messages_check_deps_ServiceHost" />
+      <config projectName="Project" targetName="_rosbridge_library_generate_messages_check_deps_TestChar" />
+      <config projectName="Project" targetName="actionlib_generate_messages_cpp" />
+      <config projectName="Project" targetName="_rosapi_generate_messages_check_deps_TypeDef" />
+      <config projectName="Project" targetName="_rosapi_generate_messages_check_deps_GetParamNames" />
+      <config projectName="Project" targetName="std_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="_rosbridge_library_generate_messages_check_deps_TestRequestOnly" />
+      <config projectName="Project" targetName="rosbridge_library_geneus" />
+      <config projectName="Project" targetName="_rosapi_generate_messages_check_deps_Services" />
+      <config projectName="Project" targetName="rosbridge_library_generate_messages_eus" />
+      <config projectName="Project" targetName="_rosbridge_library_generate_messages_check_deps_AddTwoInts" />
+      <config projectName="Project" targetName="tf_generate_messages_cpp" />
+      <config projectName="Project" targetName="std_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="_run_tests_rosbridge_library_rostest_test_internal_test_internal.test" />
+      <config projectName="Project" targetName="rosbridge_library_genpy" />
+      <config projectName="Project" targetName="rosbridge_library_gennodejs" />
+      <config projectName="Project" targetName="sensor_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="_catkin_empty_exported_target" />
+      <config projectName="Project" targetName="rosbridge_library_generate_messages" />
+      <config projectName="Project" targetName="run_tests" />
+      <config projectName="Project" targetName="run_tests_rosbridge_library_rostest_test_capabilities_test_capabilities.test" />
+      <config projectName="Project" targetName="_rosapi_generate_messages_check_deps_TopicType" />
+      <config projectName="Project" targetName="_rosapi_generate_messages_check_deps_NodeDetails" />
+      <config projectName="Project" targetName="rosbridge_library_genlisp" />
+      <config projectName="Project" targetName="lgsvl_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="std_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="gtest" />
+      <config projectName="Project" targetName="_rosbridge_library_generate_messages_check_deps_TestArrayRequest" />
+      <config projectName="Project" targetName="tf2_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="gmock_main" />
+      <config projectName="Project" targetName="actionlib_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="lgsvl_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="sensor_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="_rosbridge_library_generate_messages_check_deps_TestUInt8FixedSizeArray16" />
+      <config projectName="Project" targetName="_rosapi_generate_messages_check_deps_ServiceType" />
+      <config projectName="Project" targetName="_rosapi_generate_messages_check_deps_MessageDetails" />
+      <config projectName="Project" targetName="rosbridge_library_generate_messages_lisp" />
+      <config projectName="Project" targetName="sensor_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="tf_generate_messages_nodejs" />
+      <config projectName="Project" targetName="tests" />
+      <config projectName="Project" targetName="geometry_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="rosbridge_library_gencpp" />
+      <config projectName="Project" targetName="rosbridge_library_generate_messages_cpp" />
+      <config projectName="Project" targetName="actionlib_generate_messages_py" />
+      <config projectName="Project" targetName="_rosbridge_library_generate_messages_check_deps_TestEmpty" />
+      <config projectName="Project" targetName="_rosbridge_library_generate_messages_check_deps_TestRequestAndResponse" />
+      <config projectName="Project" targetName="rosapi_generate_messages_lisp" />
+      <config projectName="Project" targetName="_rosbridge_library_generate_messages_check_deps_SendBytes" />
+      <config projectName="Project" targetName="roscpp_generate_messages_nodejs" />
+      <config projectName="Project" targetName="clean_test_results_rosbridge_library" />
+      <config projectName="Project" targetName="lgsvl_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="_rosapi_generate_messages_check_deps_DeleteParam" />
+      <config projectName="Project" targetName="_rosbridge_library_generate_messages_check_deps_TestResponseOnly" />
+      <config projectName="Project" targetName="_rosbridge_library_generate_messages_check_deps_TestMultipleRequestFields" />
+      <config projectName="Project" targetName="_rosapi_generate_messages_check_deps_TopicsForType" />
+      <config projectName="Project" targetName="roscpp_generate_messages_py" />
+      <config projectName="Project" targetName="_rosbridge_library_generate_messages_check_deps_TestHeader" />
+      <config projectName="Project" targetName="roscpp_generate_messages_eus" />
+      <config projectName="Project" targetName="_rosbridge_library_generate_messages_check_deps_TestMultipleResponseFields" />
+      <config projectName="Project" targetName="rosapi_genpy" />
+      <config projectName="Project" targetName="vehicle_control" />
+      <config projectName="Project" targetName="rosapi_genlisp" />
+      <config projectName="Project" targetName="_rosapi_generate_messages_check_deps_Subscribers" />
+      <config projectName="Project" targetName="sensor_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="geometry_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="_rosbridge_library_generate_messages_check_deps_TestNestedService" />
+      <config projectName="Project" targetName="actionlib_generate_messages_lisp" />
+      <config projectName="Project" targetName="tf2_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="rosapi_geneus" />
+      <config projectName="Project" targetName="geometry_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="_rosapi_generate_messages_check_deps_GetActionServers" />
+      <config projectName="Project" targetName="rosapi_generate_messages_py" />
+      <config projectName="Project" targetName="_rosbridge_library_generate_messages_check_deps_TestHeaderTwo" />
+      <config projectName="Project" targetName="_rosbridge_library_generate_messages_check_deps_Num" />
+      <config projectName="Project" targetName="roscpp_generate_messages_lisp" />
+      <config projectName="Project" targetName="rosbridge_library_generate_messages_nodejs" />
+      <config projectName="Project" targetName="_run_tests_rosbridge_library_rostest_test_capabilities_test_capabilities.test" />
+      <config projectName="Project" targetName="tf_generate_messages_py" />
+      <config projectName="Project" targetName="_rosapi_generate_messages_check_deps_GetTime" />
+      <config projectName="Project" targetName="download_extra_data" />
+      <config projectName="Project" targetName="_run_tests_rosbridge_library_rostest" />
+      <config projectName="Project" targetName="tf_generate_messages_lisp" />
+      <config projectName="Project" targetName="_rosbridge_library_generate_messages_check_deps_TestDurationArray" />
+      <config projectName="Project" targetName="tf2_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="run_tests_rosbridge_library" />
+      <config projectName="Project" targetName="actionlib_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="_rosapi_generate_messages_check_deps_SetParam" />
+      <config projectName="Project" targetName="std_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="_rosapi_generate_messages_check_deps_ServiceProviders" />
+      <config projectName="Project" targetName="actionlib_generate_messages_nodejs" />
+      <config projectName="Project" targetName="actionlib_generate_messages_eus" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Default" GENERATION_DIR="$PROJECT_DIR$/../build" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3d6b6b8b-48fe-431d-bd7b-dc0d060267d2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Default" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/rosbridge_suite" />
+  </component>
+  <component name="ProjectId" id="268b7ihoRLs4QI9hIPqiCtJQoiJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../build" />
+  </component>
+  <component name="RunManager" selected="CMake Application.clean_test_results">
+    <configuration name="gmock_main" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="gmock_main" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="gmock_main" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest_main" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="gtest_main" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="gtest_main" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_catkin_empty_exported_target" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_catkin_empty_exported_target" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_catkin_empty_exported_target">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosapi_generate_messages_check_deps_DeleteParam" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosapi_generate_messages_check_deps_DeleteParam" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosapi_generate_messages_check_deps_DeleteParam">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosapi_generate_messages_check_deps_GetActionServers" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosapi_generate_messages_check_deps_GetActionServers" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosapi_generate_messages_check_deps_GetActionServers">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosapi_generate_messages_check_deps_GetParam" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosapi_generate_messages_check_deps_GetParam" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosapi_generate_messages_check_deps_GetParam">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosapi_generate_messages_check_deps_GetParamNames" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosapi_generate_messages_check_deps_GetParamNames" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosapi_generate_messages_check_deps_GetParamNames">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosapi_generate_messages_check_deps_GetTime" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosapi_generate_messages_check_deps_GetTime" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosapi_generate_messages_check_deps_GetTime">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosapi_generate_messages_check_deps_HasParam" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosapi_generate_messages_check_deps_HasParam" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosapi_generate_messages_check_deps_HasParam">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosapi_generate_messages_check_deps_MessageDetails" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosapi_generate_messages_check_deps_MessageDetails" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosapi_generate_messages_check_deps_MessageDetails">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosapi_generate_messages_check_deps_NodeDetails" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosapi_generate_messages_check_deps_NodeDetails" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosapi_generate_messages_check_deps_NodeDetails">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosapi_generate_messages_check_deps_Nodes" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosapi_generate_messages_check_deps_Nodes" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosapi_generate_messages_check_deps_Nodes">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosapi_generate_messages_check_deps_Publishers" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosapi_generate_messages_check_deps_Publishers" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosapi_generate_messages_check_deps_Publishers">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosapi_generate_messages_check_deps_SearchParam" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosapi_generate_messages_check_deps_SearchParam" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosapi_generate_messages_check_deps_SearchParam">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosapi_generate_messages_check_deps_ServiceHost" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosapi_generate_messages_check_deps_ServiceHost" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosapi_generate_messages_check_deps_ServiceHost">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosapi_generate_messages_check_deps_ServiceNode" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosapi_generate_messages_check_deps_ServiceNode" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosapi_generate_messages_check_deps_ServiceNode">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosapi_generate_messages_check_deps_ServiceProviders" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosapi_generate_messages_check_deps_ServiceProviders" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosapi_generate_messages_check_deps_ServiceProviders">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosapi_generate_messages_check_deps_ServiceRequestDetails" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosapi_generate_messages_check_deps_ServiceRequestDetails" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosapi_generate_messages_check_deps_ServiceRequestDetails">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosapi_generate_messages_check_deps_ServiceResponseDetails" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosapi_generate_messages_check_deps_ServiceResponseDetails" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosapi_generate_messages_check_deps_ServiceResponseDetails">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosapi_generate_messages_check_deps_ServiceType" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosapi_generate_messages_check_deps_ServiceType" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosapi_generate_messages_check_deps_ServiceType">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosapi_generate_messages_check_deps_Services" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosapi_generate_messages_check_deps_Services" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosapi_generate_messages_check_deps_Services">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosapi_generate_messages_check_deps_ServicesForType" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosapi_generate_messages_check_deps_ServicesForType" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosapi_generate_messages_check_deps_ServicesForType">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosapi_generate_messages_check_deps_SetParam" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosapi_generate_messages_check_deps_SetParam" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosapi_generate_messages_check_deps_SetParam">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosapi_generate_messages_check_deps_Subscribers" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosapi_generate_messages_check_deps_Subscribers" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosapi_generate_messages_check_deps_Subscribers">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosapi_generate_messages_check_deps_TopicType" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosapi_generate_messages_check_deps_TopicType" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosapi_generate_messages_check_deps_TopicType">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosapi_generate_messages_check_deps_Topics" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosapi_generate_messages_check_deps_Topics" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosapi_generate_messages_check_deps_Topics">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosapi_generate_messages_check_deps_TopicsForType" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosapi_generate_messages_check_deps_TopicsForType" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosapi_generate_messages_check_deps_TopicsForType">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosapi_generate_messages_check_deps_TypeDef" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosapi_generate_messages_check_deps_TypeDef" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosapi_generate_messages_check_deps_TypeDef">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosbridge_library_generate_messages_check_deps_AddTwoInts" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosbridge_library_generate_messages_check_deps_AddTwoInts" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosbridge_library_generate_messages_check_deps_AddTwoInts">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosbridge_library_generate_messages_check_deps_Num" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosbridge_library_generate_messages_check_deps_Num" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosbridge_library_generate_messages_check_deps_Num">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosbridge_library_generate_messages_check_deps_SendBytes" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosbridge_library_generate_messages_check_deps_SendBytes" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosbridge_library_generate_messages_check_deps_SendBytes">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosbridge_library_generate_messages_check_deps_TestArrayRequest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosbridge_library_generate_messages_check_deps_TestArrayRequest" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosbridge_library_generate_messages_check_deps_TestArrayRequest">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosbridge_library_generate_messages_check_deps_TestChar" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosbridge_library_generate_messages_check_deps_TestChar" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosbridge_library_generate_messages_check_deps_TestChar">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosbridge_library_generate_messages_check_deps_TestDurationArray" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosbridge_library_generate_messages_check_deps_TestDurationArray" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosbridge_library_generate_messages_check_deps_TestDurationArray">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosbridge_library_generate_messages_check_deps_TestEmpty" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosbridge_library_generate_messages_check_deps_TestEmpty" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosbridge_library_generate_messages_check_deps_TestEmpty">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosbridge_library_generate_messages_check_deps_TestHeader" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosbridge_library_generate_messages_check_deps_TestHeader" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosbridge_library_generate_messages_check_deps_TestHeader">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosbridge_library_generate_messages_check_deps_TestHeaderArray" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosbridge_library_generate_messages_check_deps_TestHeaderArray" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosbridge_library_generate_messages_check_deps_TestHeaderArray">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosbridge_library_generate_messages_check_deps_TestHeaderTwo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosbridge_library_generate_messages_check_deps_TestHeaderTwo" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosbridge_library_generate_messages_check_deps_TestHeaderTwo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosbridge_library_generate_messages_check_deps_TestMultipleRequestFields" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosbridge_library_generate_messages_check_deps_TestMultipleRequestFields" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosbridge_library_generate_messages_check_deps_TestMultipleRequestFields">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosbridge_library_generate_messages_check_deps_TestMultipleResponseFields" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosbridge_library_generate_messages_check_deps_TestMultipleResponseFields" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosbridge_library_generate_messages_check_deps_TestMultipleResponseFields">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosbridge_library_generate_messages_check_deps_TestNestedService" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosbridge_library_generate_messages_check_deps_TestNestedService" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosbridge_library_generate_messages_check_deps_TestNestedService">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosbridge_library_generate_messages_check_deps_TestRequestAndResponse" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosbridge_library_generate_messages_check_deps_TestRequestAndResponse" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosbridge_library_generate_messages_check_deps_TestRequestAndResponse">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosbridge_library_generate_messages_check_deps_TestRequestOnly" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosbridge_library_generate_messages_check_deps_TestRequestOnly" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosbridge_library_generate_messages_check_deps_TestRequestOnly">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosbridge_library_generate_messages_check_deps_TestResponseOnly" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosbridge_library_generate_messages_check_deps_TestResponseOnly" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosbridge_library_generate_messages_check_deps_TestResponseOnly">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosbridge_library_generate_messages_check_deps_TestTimeArray" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosbridge_library_generate_messages_check_deps_TestTimeArray" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosbridge_library_generate_messages_check_deps_TestTimeArray">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosbridge_library_generate_messages_check_deps_TestUInt8" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosbridge_library_generate_messages_check_deps_TestUInt8" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosbridge_library_generate_messages_check_deps_TestUInt8">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rosbridge_library_generate_messages_check_deps_TestUInt8FixedSizeArray16" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_rosbridge_library_generate_messages_check_deps_TestUInt8FixedSizeArray16" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_rosbridge_library_generate_messages_check_deps_TestUInt8FixedSizeArray16">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_run_tests_rosbridge_library" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_rosbridge_library" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_run_tests_rosbridge_library">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_run_tests_rosbridge_library_rostest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_rosbridge_library_rostest" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_run_tests_rosbridge_library_rostest">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_run_tests_rosbridge_library_rostest_test_capabilities_test_capabilities.test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_rosbridge_library_rostest_test_capabilities_test_capabilities.test" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_run_tests_rosbridge_library_rostest_test_capabilities_test_capabilities.test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_run_tests_rosbridge_library_rostest_test_internal_test_internal.test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_rosbridge_library_rostest_test_internal_test_internal.test" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_run_tests_rosbridge_library_rostest_test_internal_test_internal.test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="actionlib_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="actionlib_generate_messages_cpp" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="actionlib_generate_messages_cpp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="actionlib_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="actionlib_generate_messages_eus" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="actionlib_generate_messages_eus">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="actionlib_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="actionlib_generate_messages_lisp" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="actionlib_generate_messages_lisp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="actionlib_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="actionlib_generate_messages_nodejs" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="actionlib_generate_messages_nodejs">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="actionlib_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="actionlib_generate_messages_py" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="actionlib_generate_messages_py">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="actionlib_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="actionlib_msgs_generate_messages_cpp" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="actionlib_msgs_generate_messages_cpp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="actionlib_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="actionlib_msgs_generate_messages_eus" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="actionlib_msgs_generate_messages_eus">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="actionlib_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="actionlib_msgs_generate_messages_lisp" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="actionlib_msgs_generate_messages_lisp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="actionlib_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="actionlib_msgs_generate_messages_nodejs" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="actionlib_msgs_generate_messages_nodejs">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="actionlib_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="actionlib_msgs_generate_messages_py" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="actionlib_msgs_generate_messages_py">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clean_test_results" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="clean_test_results" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="clean_test_results">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clean_test_results_rosbridge_library" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="clean_test_results_rosbridge_library" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="clean_test_results_rosbridge_library">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="download_extra_data" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="download_extra_data" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="download_extra_data">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="doxygen" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="doxygen" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="doxygen">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="geometry_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="geometry_msgs_generate_messages_cpp" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="geometry_msgs_generate_messages_cpp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="geometry_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="geometry_msgs_generate_messages_eus" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="geometry_msgs_generate_messages_eus">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="geometry_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="geometry_msgs_generate_messages_lisp" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="geometry_msgs_generate_messages_lisp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="geometry_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="geometry_msgs_generate_messages_nodejs" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="geometry_msgs_generate_messages_nodejs">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="geometry_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="geometry_msgs_generate_messages_py" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="geometry_msgs_generate_messages_py">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="gmock" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="gmock">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="gtest" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="gtest">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lgsvl_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="lgsvl_msgs_generate_messages_cpp" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="lgsvl_msgs_generate_messages_cpp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lgsvl_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="lgsvl_msgs_generate_messages_eus" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="lgsvl_msgs_generate_messages_eus">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lgsvl_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="lgsvl_msgs_generate_messages_lisp" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="lgsvl_msgs_generate_messages_lisp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lgsvl_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="lgsvl_msgs_generate_messages_nodejs" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="lgsvl_msgs_generate_messages_nodejs">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lgsvl_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="lgsvl_msgs_generate_messages_py" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="lgsvl_msgs_generate_messages_py">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosapi_gencpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosapi_gencpp" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="rosapi_gencpp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosapi_generate_messages" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosapi_generate_messages" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="rosapi_generate_messages">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosapi_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosapi_generate_messages_cpp" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="rosapi_generate_messages_cpp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosapi_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosapi_generate_messages_eus" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="rosapi_generate_messages_eus">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosapi_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosapi_generate_messages_lisp" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="rosapi_generate_messages_lisp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosapi_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosapi_generate_messages_nodejs" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="rosapi_generate_messages_nodejs">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosapi_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosapi_generate_messages_py" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="rosapi_generate_messages_py">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosapi_geneus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosapi_geneus" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="rosapi_geneus">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosapi_genlisp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosapi_genlisp" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="rosapi_genlisp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosapi_gennodejs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosapi_gennodejs" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="rosapi_gennodejs">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosapi_genpy" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosapi_genpy" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="rosapi_genpy">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosbridge_library_gencpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosbridge_library_gencpp" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="rosbridge_library_gencpp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosbridge_library_generate_messages" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosbridge_library_generate_messages" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="rosbridge_library_generate_messages">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosbridge_library_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosbridge_library_generate_messages_cpp" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="rosbridge_library_generate_messages_cpp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosbridge_library_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosbridge_library_generate_messages_eus" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="rosbridge_library_generate_messages_eus">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosbridge_library_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosbridge_library_generate_messages_lisp" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="rosbridge_library_generate_messages_lisp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosbridge_library_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosbridge_library_generate_messages_nodejs" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="rosbridge_library_generate_messages_nodejs">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosbridge_library_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosbridge_library_generate_messages_py" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="rosbridge_library_generate_messages_py">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosbridge_library_geneus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosbridge_library_geneus" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="rosbridge_library_geneus">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosbridge_library_genlisp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosbridge_library_genlisp" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="rosbridge_library_genlisp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosbridge_library_gennodejs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosbridge_library_gennodejs" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="rosbridge_library_gennodejs">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosbridge_library_genpy" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosbridge_library_genpy" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="rosbridge_library_genpy">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="roscpp_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="roscpp_generate_messages_cpp" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="roscpp_generate_messages_cpp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="roscpp_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="roscpp_generate_messages_eus" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="roscpp_generate_messages_eus">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="roscpp_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="roscpp_generate_messages_lisp" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="roscpp_generate_messages_lisp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="roscpp_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="roscpp_generate_messages_nodejs" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="roscpp_generate_messages_nodejs">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="roscpp_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="roscpp_generate_messages_py" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="roscpp_generate_messages_py">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosgraph_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosgraph_msgs_generate_messages_cpp" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="rosgraph_msgs_generate_messages_cpp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosgraph_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosgraph_msgs_generate_messages_eus" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="rosgraph_msgs_generate_messages_eus">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosgraph_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosgraph_msgs_generate_messages_lisp" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="rosgraph_msgs_generate_messages_lisp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosgraph_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosgraph_msgs_generate_messages_nodejs" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="rosgraph_msgs_generate_messages_nodejs">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosgraph_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosgraph_msgs_generate_messages_py" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="rosgraph_msgs_generate_messages_py">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run_tests" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="run_tests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run_tests_rosbridge_library" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_rosbridge_library" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="run_tests_rosbridge_library">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run_tests_rosbridge_library_rostest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_rosbridge_library_rostest" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="run_tests_rosbridge_library_rostest">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run_tests_rosbridge_library_rostest_test_capabilities_test_capabilities.test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_rosbridge_library_rostest_test_capabilities_test_capabilities.test" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="run_tests_rosbridge_library_rostest_test_capabilities_test_capabilities.test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run_tests_rosbridge_library_rostest_test_internal_test_internal.test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_rosbridge_library_rostest_test_internal_test_internal.test" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="run_tests_rosbridge_library_rostest_test_internal_test_internal.test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sensor_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="sensor_msgs_generate_messages_cpp" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="sensor_msgs_generate_messages_cpp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sensor_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="sensor_msgs_generate_messages_eus" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="sensor_msgs_generate_messages_eus">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sensor_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="sensor_msgs_generate_messages_lisp" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="sensor_msgs_generate_messages_lisp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sensor_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="sensor_msgs_generate_messages_nodejs" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="sensor_msgs_generate_messages_nodejs">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sensor_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="sensor_msgs_generate_messages_py" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="sensor_msgs_generate_messages_py">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="std_msgs_generate_messages_cpp" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="std_msgs_generate_messages_cpp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="std_msgs_generate_messages_eus" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="std_msgs_generate_messages_eus">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="std_msgs_generate_messages_lisp" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="std_msgs_generate_messages_lisp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="std_msgs_generate_messages_nodejs" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="std_msgs_generate_messages_nodejs">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="std_msgs_generate_messages_py" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="std_msgs_generate_messages_py">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tests" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="tests" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="tests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tf2_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="tf2_msgs_generate_messages_cpp" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="tf2_msgs_generate_messages_cpp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tf2_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="tf2_msgs_generate_messages_eus" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="tf2_msgs_generate_messages_eus">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tf2_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="tf2_msgs_generate_messages_lisp" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="tf2_msgs_generate_messages_lisp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tf2_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="tf2_msgs_generate_messages_nodejs" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="tf2_msgs_generate_messages_nodejs">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tf2_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="tf2_msgs_generate_messages_py" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="tf2_msgs_generate_messages_py">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tf_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="tf_generate_messages_cpp" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="tf_generate_messages_cpp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tf_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="tf_generate_messages_eus" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="tf_generate_messages_eus">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tf_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="tf_generate_messages_lisp" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="tf_generate_messages_lisp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tf_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="tf_generate_messages_nodejs" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="tf_generate_messages_nodejs">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tf_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="tf_generate_messages_py" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="tf_generate_messages_py">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vehicle_control" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="vehicle_control" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="vehicle_control">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Google Test.gmock_main" />
+      <item itemvalue="Google Test.gtest_main" />
+      <item itemvalue="CMake Application._catkin_empty_exported_target" />
+      <item itemvalue="CMake Application._rosapi_generate_messages_check_deps_DeleteParam" />
+      <item itemvalue="CMake Application._rosapi_generate_messages_check_deps_GetActionServers" />
+      <item itemvalue="CMake Application._rosapi_generate_messages_check_deps_GetParamNames" />
+      <item itemvalue="CMake Application._rosapi_generate_messages_check_deps_GetParam" />
+      <item itemvalue="CMake Application._rosapi_generate_messages_check_deps_GetTime" />
+      <item itemvalue="CMake Application._rosapi_generate_messages_check_deps_HasParam" />
+      <item itemvalue="CMake Application._rosapi_generate_messages_check_deps_MessageDetails" />
+      <item itemvalue="CMake Application._rosapi_generate_messages_check_deps_NodeDetails" />
+      <item itemvalue="CMake Application._rosapi_generate_messages_check_deps_Nodes" />
+      <item itemvalue="CMake Application._rosapi_generate_messages_check_deps_Publishers" />
+      <item itemvalue="CMake Application._rosapi_generate_messages_check_deps_SearchParam" />
+      <item itemvalue="CMake Application._rosapi_generate_messages_check_deps_ServiceHost" />
+      <item itemvalue="CMake Application._rosapi_generate_messages_check_deps_ServiceNode" />
+      <item itemvalue="CMake Application._rosapi_generate_messages_check_deps_ServiceProviders" />
+      <item itemvalue="CMake Application._rosapi_generate_messages_check_deps_ServiceRequestDetails" />
+      <item itemvalue="CMake Application._rosapi_generate_messages_check_deps_ServiceResponseDetails" />
+      <item itemvalue="CMake Application._rosapi_generate_messages_check_deps_ServiceType" />
+      <item itemvalue="CMake Application._rosapi_generate_messages_check_deps_ServicesForType" />
+      <item itemvalue="CMake Application._rosapi_generate_messages_check_deps_Services" />
+      <item itemvalue="CMake Application._rosapi_generate_messages_check_deps_SetParam" />
+      <item itemvalue="CMake Application._rosapi_generate_messages_check_deps_Subscribers" />
+      <item itemvalue="CMake Application._rosapi_generate_messages_check_deps_TopicType" />
+      <item itemvalue="CMake Application._rosapi_generate_messages_check_deps_TopicsForType" />
+      <item itemvalue="CMake Application._rosapi_generate_messages_check_deps_Topics" />
+      <item itemvalue="CMake Application._rosapi_generate_messages_check_deps_TypeDef" />
+      <item itemvalue="CMake Application._rosbridge_library_generate_messages_check_deps_AddTwoInts" />
+      <item itemvalue="CMake Application._rosbridge_library_generate_messages_check_deps_Num" />
+      <item itemvalue="CMake Application._rosbridge_library_generate_messages_check_deps_SendBytes" />
+      <item itemvalue="CMake Application._rosbridge_library_generate_messages_check_deps_TestArrayRequest" />
+      <item itemvalue="CMake Application._rosbridge_library_generate_messages_check_deps_TestChar" />
+      <item itemvalue="CMake Application._rosbridge_library_generate_messages_check_deps_TestDurationArray" />
+      <item itemvalue="CMake Application._rosbridge_library_generate_messages_check_deps_TestEmpty" />
+      <item itemvalue="CMake Application._rosbridge_library_generate_messages_check_deps_TestHeaderArray" />
+      <item itemvalue="CMake Application._rosbridge_library_generate_messages_check_deps_TestHeaderTwo" />
+      <item itemvalue="CMake Application._rosbridge_library_generate_messages_check_deps_TestHeader" />
+      <item itemvalue="CMake Application._rosbridge_library_generate_messages_check_deps_TestMultipleRequestFields" />
+      <item itemvalue="CMake Application._rosbridge_library_generate_messages_check_deps_TestMultipleResponseFields" />
+      <item itemvalue="CMake Application._rosbridge_library_generate_messages_check_deps_TestNestedService" />
+      <item itemvalue="CMake Application._rosbridge_library_generate_messages_check_deps_TestRequestAndResponse" />
+      <item itemvalue="CMake Application._rosbridge_library_generate_messages_check_deps_TestRequestOnly" />
+      <item itemvalue="CMake Application._rosbridge_library_generate_messages_check_deps_TestResponseOnly" />
+      <item itemvalue="CMake Application._rosbridge_library_generate_messages_check_deps_TestTimeArray" />
+      <item itemvalue="CMake Application._rosbridge_library_generate_messages_check_deps_TestUInt8FixedSizeArray16" />
+      <item itemvalue="CMake Application._rosbridge_library_generate_messages_check_deps_TestUInt8" />
+      <item itemvalue="CMake Application._run_tests_rosbridge_library" />
+      <item itemvalue="CMake Application._run_tests_rosbridge_library_rostest" />
+      <item itemvalue="CMake Application._run_tests_rosbridge_library_rostest_test_capabilities_test_capabilities.test" />
+      <item itemvalue="CMake Application._run_tests_rosbridge_library_rostest_test_internal_test_internal.test" />
+      <item itemvalue="CMake Application.actionlib_generate_messages_cpp" />
+      <item itemvalue="CMake Application.actionlib_generate_messages_eus" />
+      <item itemvalue="CMake Application.actionlib_generate_messages_lisp" />
+      <item itemvalue="CMake Application.actionlib_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.actionlib_generate_messages_py" />
+      <item itemvalue="CMake Application.actionlib_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.actionlib_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.actionlib_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.actionlib_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.actionlib_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.clean_test_results" />
+      <item itemvalue="CMake Application.clean_test_results_rosbridge_library" />
+      <item itemvalue="CMake Application.download_extra_data" />
+      <item itemvalue="CMake Application.doxygen" />
+      <item itemvalue="CMake Application.geometry_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.geometry_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.geometry_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.geometry_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.geometry_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.gmock" />
+      <item itemvalue="CMake Application.gtest" />
+      <item itemvalue="CMake Application.lgsvl_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.lgsvl_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.lgsvl_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.lgsvl_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.lgsvl_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.rosapi_gencpp" />
+      <item itemvalue="CMake Application.rosapi_generate_messages" />
+      <item itemvalue="CMake Application.rosapi_generate_messages_cpp" />
+      <item itemvalue="CMake Application.rosapi_generate_messages_eus" />
+      <item itemvalue="CMake Application.rosapi_generate_messages_lisp" />
+      <item itemvalue="CMake Application.rosapi_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.rosapi_generate_messages_py" />
+      <item itemvalue="CMake Application.rosapi_geneus" />
+      <item itemvalue="CMake Application.rosapi_genlisp" />
+      <item itemvalue="CMake Application.rosapi_gennodejs" />
+      <item itemvalue="CMake Application.rosapi_genpy" />
+      <item itemvalue="CMake Application.rosbridge_library_gencpp" />
+      <item itemvalue="CMake Application.rosbridge_library_generate_messages" />
+      <item itemvalue="CMake Application.rosbridge_library_generate_messages_cpp" />
+      <item itemvalue="CMake Application.rosbridge_library_generate_messages_eus" />
+      <item itemvalue="CMake Application.rosbridge_library_generate_messages_lisp" />
+      <item itemvalue="CMake Application.rosbridge_library_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.rosbridge_library_generate_messages_py" />
+      <item itemvalue="CMake Application.rosbridge_library_geneus" />
+      <item itemvalue="CMake Application.rosbridge_library_genlisp" />
+      <item itemvalue="CMake Application.rosbridge_library_gennodejs" />
+      <item itemvalue="CMake Application.rosbridge_library_genpy" />
+      <item itemvalue="CMake Application.roscpp_generate_messages_cpp" />
+      <item itemvalue="CMake Application.roscpp_generate_messages_eus" />
+      <item itemvalue="CMake Application.roscpp_generate_messages_lisp" />
+      <item itemvalue="CMake Application.roscpp_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.roscpp_generate_messages_py" />
+      <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.run_tests" />
+      <item itemvalue="CMake Application.run_tests_rosbridge_library" />
+      <item itemvalue="CMake Application.run_tests_rosbridge_library_rostest" />
+      <item itemvalue="CMake Application.run_tests_rosbridge_library_rostest_test_capabilities_test_capabilities.test" />
+      <item itemvalue="CMake Application.run_tests_rosbridge_library_rostest_test_internal_test_internal.test" />
+      <item itemvalue="CMake Application.sensor_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.sensor_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.sensor_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.sensor_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.sensor_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.std_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.std_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.std_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.std_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.std_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.tests" />
+      <item itemvalue="CMake Application.tf2_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.tf2_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.tf2_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.tf2_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.tf2_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.tf_generate_messages_cpp" />
+      <item itemvalue="CMake Application.tf_generate_messages_eus" />
+      <item itemvalue="CMake Application.tf_generate_messages_lisp" />
+      <item itemvalue="CMake Application.tf_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.tf_generate_messages_py" />
+      <item itemvalue="CMake Application.vehicle_control" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d6b6b8b-48fe-431d-bd7b-dc0d060267d2" name="Default Changelist" comment="" />
+      <created>1646807994810</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646807994810</updated>
+      <workItem from="1646807995835" duration="3228000" />
+      <workItem from="1646824525560" duration="1217000" />
+      <workItem from="1646875405023" duration="45000" />
+      <workItem from="1646892213875" duration="9000" />
+      <workItem from="1646892273341" duration="36000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
