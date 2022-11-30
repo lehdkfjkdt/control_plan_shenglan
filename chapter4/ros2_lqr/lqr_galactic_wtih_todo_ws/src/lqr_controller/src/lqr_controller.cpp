@@ -333,6 +333,21 @@ void LqrController::SolveLQRProblem(const Matrix &A, const Matrix &B,
     std::cout
         << "LQR solver: one or more matrices have incompatible dimensions."
         << std::endl;
+    uint num_iteration = 0;
+    double diff = std::numeric_limits<double>::max();
+    Eigen::MatrixXd P = matrix_q_;
+    Eigen::MatrixXd a_t = matrix_ad_.transpose();
+    Eigen::MatrixXd b_t = matrix_bd_.transpose();
+    while (num_iteration < max_num_iteration && diff > tolerance) {
+      Eigen::MatrixXd NEXT_P = matrix_q_ + a_t * P * matrix_ad_ -
+                               a_t * P * matrix_b_ *
+                                   (b_t * P * matrix_b_ + matrix_r_).inverse() *
+                                   b_t * P * matrix_ad_;
+      diff = fabs((NEXT_P - P).maxCoeff());
+      P = NEXT_P;
+    }
+    ptr_K = (matrix_r_ + matrix_bd_.transpose() * P * matrix_bd_).inverse() *
+            matrix_bd_.transpose() * P * matrix_ad_;
     return;
   }
 }
