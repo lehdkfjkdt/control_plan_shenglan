@@ -1,0 +1,20 @@
+{
+  "package_name": "lgsvl_msgs",
+  "non_idl_tuples": [
+    "/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lgsvl_msgs:msg/BoundingBox2D.msg",
+    "/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lgsvl_msgs:msg/BoundingBox3D.msg",
+    "/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lgsvl_msgs:msg/CanBusData.msg",
+    "/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lgsvl_msgs:msg/DetectedRadarObjectArray.msg",
+    "/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lgsvl_msgs:msg/DetectedRadarObject.msg",
+    "/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lgsvl_msgs:msg/Detection2D.msg",
+    "/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lgsvl_msgs:msg/Detection2DArray.msg",
+    "/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lgsvl_msgs:msg/Detection3D.msg",
+    "/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lgsvl_msgs:msg/Detection3DArray.msg",
+    "/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lgsvl_msgs:msg/Signal.msg",
+    "/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lgsvl_msgs:msg/SignalArray.msg",
+    "/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lgsvl_msgs:msg/Ultrasonic.msg",
+    "/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lgsvl_msgs:msg/VehicleControlData.msg",
+    "/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lgsvl_msgs:msg/VehicleStateData.msg",
+    "/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lgsvl_msgs:msg/VehicleOdometry.msg"
+  ]
+}

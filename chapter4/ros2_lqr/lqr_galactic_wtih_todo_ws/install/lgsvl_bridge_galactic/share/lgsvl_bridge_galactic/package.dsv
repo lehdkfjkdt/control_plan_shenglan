@@ -1,0 +1,8 @@
+source;share/lgsvl_bridge_galactic/hook/cmake_prefix_path.ps1
+source;share/lgsvl_bridge_galactic/hook/cmake_prefix_path.dsv
+source;share/lgsvl_bridge_galactic/hook/cmake_prefix_path.sh
+source;share/lgsvl_bridge_galactic/local_setup.bash
+source;share/lgsvl_bridge_galactic/local_setup.dsv
+source;share/lgsvl_bridge_galactic/local_setup.ps1
+source;share/lgsvl_bridge_galactic/local_setup.sh
+source;share/lgsvl_bridge_galactic/local_setup.zsh

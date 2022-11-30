@@ -10,12 +10,23 @@
 
 #include "Eigen/Core"
 #include "common.h"
+#include <boost/geometry.hpp>
+#include <boost/geometry/core/access.hpp>
+#include <boost/geometry/core/cs.hpp>
+#include <boost/geometry/geometries/geometries.hpp>
+#include <boost/geometry/geometries/point.hpp>
+#include <boost/geometry/geometries/point_xy.hpp>
+#include <boost/geometry/geometries/register/linestring.hpp>
+#include <boost/geometry/geometries/register/point.hpp>
+#include <boost/geometry/geometries/segment.hpp>
+#include <boost/geometry/geometry.hpp>
+#include <boost/mpl/int.hpp>
 
 namespace shenlan {
 namespace control {
 
 using Matrix = Eigen::MatrixXd;
-
+using bg_point_2d = boost::geometry::model::d2::point_xy<double>;
 class LqrController {
    public:
     LqrController();
