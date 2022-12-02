@@ -1,0 +1,60 @@
+[0.067s] Invoking command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lqr_controller': AMENT_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lqr_controller -- -j16 -l16
+[0.199s] [35m[1mScanning dependencies of target lqr_lateral_pid_longitudinal[0m
+[0.323s] [ 20%] [32mBuilding CXX object CMakeFiles/lqr_lateral_pid_longitudinal.dir/src/lqr_controller.cpp.o[0m
+[0.727s] In file included from [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/include/lqr_controller/common.h:19[m[K,
+[0.727s]                  from [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/include/lqr_controller/lqr_controller.h:12[m[K,
+[0.727s]                  from [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:1[m[K:
+[0.728s] [01m[K/opt/ros/rolling/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+[0.728s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[0.728s]       |  [01;35m[K^~~~~~~[m[K
+[6.915s] [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:[m[K In member function ‘[01m[Kdouble shenlan::control::LqrController::ComputeFeedForward(const VehicleState&, double)[m[K’:
+[6.915s] [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:225:67:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K-Wunused-value[m[K]
+[6.915s]   224 |   [01;35m[Kwheelbase_ *ref_curv_ +[m[K
+[6.915s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K                                          
+[6.916s]   225 | [01;35m[K      kv *localization.velocity *localization.velocity *ref_curv_ -[m[K
+[6.916s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[6.916s]   226 | [01;35m[K      matrix_k_(0, 2) *[m[K
+[6.916s]       |       [01;35m[K~~~~~~~~~~~~~~~~~[m[K                                            
+[6.916s]   227 | [01;35m[K          (lr_ * ref_curv_ -[m[K
+[6.916s]       |           [01;35m[K~~~~~~~~~~~~~~~~~~[m[K                                       
+[6.916s]   228 | [01;35m[K           lf_ * mass_ * localization.velocity * localization.velocity *[m[K
+[6.917s]       |            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.917s]   229 | [01;35m[K               ref_curv_ / (2 * cr_ * wheelbase_))[m[K;
+[6.917s]       |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                 
+[6.917s] [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:230:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[6.917s]   230 | [01;35m[K}[m[K
+[6.917s]       | [01;35m[K^[m[K
+[6.917s] [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:221:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kref_curvature[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[6.917s]   221 |                                          [01;35m[Kconst double ref_curvature[m[K) {
+[6.917s]       |                                          [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[6.918s] [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:[m[K In member function ‘[01m[Kvoid shenlan::control::LqrController::ComputeLateralErrors(double, double, double, double, double, double, LateralControlErrorPtr&)[m[K’:
+[6.918s] [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:242:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct TrajectoryPoint[m[K’ has no member named ‘[01m[Ktheta[m[K’
+[6.918s]   242 |   const double target_theta = target_point.[01;31m[Ktheta[m[K;
+[6.918s]       |                                            [01;31m[K^~~~~[m[K
+[6.918s] [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:248:15:[m[K [01;31m[Kerror: [m[K‘[01m[KLateralControlErrorPtr[m[K’ {aka ‘[01m[Kclass std::shared_ptr<LateralControlError>[m[K’} has no member named ‘[01m[Klateral_error[m[K’
+[6.918s]   248 |   lat_con_err.[01;31m[Klateral_error[m[K = lateral_error;
+[6.918s]       |               [01;31m[K^~~~~~~~~~~~~[m[K
+[6.918s] [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:249:15:[m[K [01;31m[Kerror: [m[K‘[01m[KLateralControlErrorPtr[m[K’ {aka ‘[01m[Kclass std::shared_ptr<LateralControlError>[m[K’} has no member named ‘[01m[Kheading_error[m[K’
+[6.918s]   249 |   lat_con_err.[01;31m[Kheading_error[m[K = heading_error;
+[6.919s]       |               [01;31m[K^~~~~~~~~~~~~[m[K
+[6.919s] [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:250:15:[m[K [01;31m[Kerror: [m[K‘[01m[KLateralControlErrorPtr[m[K’ {aka ‘[01m[Kclass std::shared_ptr<LateralControlError>[m[K’} has no member named ‘[01m[Klateral_error_rate[m[K’
+[6.919s]   250 |   lat_con_err.[01;31m[Klateral_error_rate[m[K = lateral_error_rate;
+[6.919s]       |               [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.919s] [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:251:15:[m[K [01;31m[Kerror: [m[K‘[01m[KLateralControlErrorPtr[m[K’ {aka ‘[01m[Kclass std::shared_ptr<LateralControlError>[m[K’} has no member named ‘[01m[Kheading_error_rate[m[K’
+[6.919s]   251 |   lat_con_err.[01;31m[Kheading_error_rate[m[K = heading_error_rate;
+[6.919s]       |               [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.919s] [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:237:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klinear_a[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[6.919s]   237 |                                          [01;35m[Kconst double linear_a[m[K,
+[6.920s]       |                                          [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+[7.106s] [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:[m[K In member function ‘[01m[Kvoid shenlan::control::LqrController::SolveLQRProblem(const Matrix&, const Matrix&, const Matrix&, const Matrix&, double, uint, shenlan::control::Matrix*)[m[K’:
+[7.106s] [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:350:40:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst Eigen::Product<Eigen::Product<Eigen::Product<Eigen::Inverse<Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, const Eigen::Matrix<double, -1, -1>, const Eigen::Product<Eigen::Product<Eigen::Transpose<Eigen::Matrix<double, -1, -1> >, Eigen::Matrix<double, -1, -1>, 0>, Eigen::Matrix<double, -1, -1>, 0> > >, Eigen::Transpose<Eigen::Matrix<double, -1, -1> >, 0>, Eigen::Matrix<double, -1, -1>, 0>, Eigen::Matrix<double, -1, -1>, 0>[m[K’ to ‘[01m[Kshenlan::control::Matrix*[m[K’ {aka ‘[01m[KEigen::Matrix<double, -1, -1>*[m[K’} in assignment
+[7.106s]   349 |     ptr_K = [01;31m[K(matrix_r_ + matrix_bd_.transpose() * P * matrix_bd_).inverse() *[m[K
+[7.106s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.106s]   350 | [01;31m[K            matrix_bd_.transpose() * P * matrix_ad_[m[K;
+[7.106s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[7.107s]       |                                        [01;31m[K|[m[K
+[7.107s]       |                                        [01;31m[Kconst Eigen::Product<Eigen::Product<Eigen::Product<Eigen::Inverse<Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, const Eigen::Matrix<double, -1, -1>, const Eigen::Product<Eigen::Product<Eigen::Transpose<Eigen::Matrix<double, -1, -1> >, Eigen::Matrix<double, -1, -1>, 0>, Eigen::Matrix<double, -1, -1>, 0> > >, Eigen::Transpose<Eigen::Matrix<double, -1, -1> >, 0>, Eigen::Matrix<double, -1, -1>, 0>, Eigen::Matrix<double, -1, -1>, 0>[m[K
+[8.790s] make[2]: *** [CMakeFiles/lqr_lateral_pid_longitudinal.dir/build.make:102: CMakeFiles/lqr_lateral_pid_longitudinal.dir/src/lqr_controller.cpp.o] Error 1
+[8.790s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lqr_lateral_pid_longitudinal.dir/all] Error 2
+[8.790s] make: *** [Makefile:141: all] Error 2
+[8.794s] Invoked command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lqr_controller' returned '2': AMENT_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lqr_controller -- -j16 -l16

@@ -222,10 +222,10 @@ double LqrController::ComputeFeedForward(const VehicleState &localization,
   const double kv = lr_ * mass_ / (2 * cf_ * (lf_ + lr_)) -
                     lf_ * mass_ / (2 * cr_ * (lf_ + lr_));
   wheelbase_ *ref_curv_ +
-      kv *vehicle_state.velocity *vehicle_state.velocity *ref_curv_ -
+      kv *localization.velocity *localization.velocity *ref_curv_ -
       matrix_k_(0, 2) *
           (lr_ * ref_curv_ -
-           lf_ * mass_ * vehicle_state.velocity * vehicle_state.velocity *
+           lf_ * mass_ * localization.velocity * localization.velocity *
                ref_curv_ / (2 * cr_ * wheelbase_));
 }
 
@@ -239,16 +239,16 @@ void LqrController::ComputeLateralErrors(const double x, const double y,
   TrajectoryPoint target_point = QueryNearestPointByPosition(x, y);
   const double dx = target_point.x - x;
   const double dy = target_point.y - y;
-  const double target_theta = target_point.theta;
+  const double target_theta = target_point.heading;
   double lateral_error = dy * cos(target_theta) - dx * sin(target_theta);
   double heading_error = NormalizeAngle(target_theta - theta);
   double lateral_error_rate = linear_v * sin(heading_error);
   double heading_error_rate = target_point.kappa * target_point.v - angular_v;
 
-  lat_con_err.lateral_error = lateral_error;
-  lat_con_err.heading_error = heading_error;
-  lat_con_err.lateral_error_rate = lateral_error_rate;
-  lat_con_err.heading_error_rate = heading_error_rate;
+  lat_con_err->lateral_error = lateral_error;
+  lat_con_err->heading_error = heading_error;
+  lat_con_err->lateral_error_rate = lateral_error_rate;
+  lat_con_err->heading_error_rate = heading_error_rate;
 }
 
 // 查询距离当前位置最近的轨迹点
@@ -346,7 +346,7 @@ void LqrController::SolveLQRProblem(const Matrix &A, const Matrix &B,
       diff = fabs((NEXT_P - P).maxCoeff());
       P = NEXT_P;
     }
-    ptr_K = (matrix_r_ + matrix_bd_.transpose() * P * matrix_bd_).inverse() *
+    (*ptr_K) = (matrix_r_ + matrix_bd_.transpose() * P * matrix_bd_).inverse() *
             matrix_bd_.transpose() * P * matrix_ad_;
     return;
   }

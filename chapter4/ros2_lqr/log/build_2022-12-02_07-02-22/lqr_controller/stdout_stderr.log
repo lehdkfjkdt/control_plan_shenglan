@@ -1,0 +1,61 @@
+[35m[1mScanning dependencies of target lqr_lateral_pid_longitudinal[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/lqr_lateral_pid_longitudinal.dir/src/lqr_controller.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/lqr_lateral_pid_longitudinal.dir/src/lqr_lateral_pid_longitudinal.cpp.o[0m
+In file included from [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/include/lqr_controller/common.h:19[m[K,
+                 from [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/include/lqr_controller/lqr_controller.h:12[m[K,
+                 from [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:1[m[K:
+[01m[K/opt/ros/rolling/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/include/lqr_controller/common.h:19[m[K,
+                 from [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/include/lqr_controller/lqr_controller.h:12[m[K,
+                 from [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/include/lqr_controller/lqr_lateral_pid_longitudinal.h:12[m[K,
+                 from [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_lateral_pid_longitudinal.cpp:1[m[K:
+[01m[K/opt/ros/rolling/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:[m[K In member function ‘[01m[Kdouble shenlan::control::LqrController::ComputeFeedForward(const VehicleState&, double)[m[K’:
+[01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:225:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kvehicle_state[m[K’ was not declared in this scope; did you mean ‘[01m[KVehicleState[m[K’?
+  225 |       kv *[01;31m[Kvehicle_state[m[K.velocity *vehicle_state.velocity *ref_curv_ -
+      |           [01;31m[K^~~~~~~~~~~~~[m[K
+      |           [32m[KVehicleState[m[K
+[01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:230:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  230 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:220:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klocalization[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  220 | double LqrController::ComputeFeedForward([01;35m[Kconst VehicleState &localization[m[K,
+      |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:221:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kref_curvature[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  221 |                                          [01;35m[Kconst double ref_curvature[m[K) {
+      |                                          [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:[m[K In member function ‘[01m[Kvoid shenlan::control::LqrController::ComputeLateralErrors(double, double, double, double, double, double, LateralControlErrorPtr&)[m[K’:
+[01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:242:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct TrajectoryPoint[m[K’ has no member named ‘[01m[Ktheta[m[K’
+  242 |   const double target_theta = target_point.[01;31m[Ktheta[m[K;
+      |                                            [01;31m[K^~~~~[m[K
+[01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:248:15:[m[K [01;31m[Kerror: [m[K‘[01m[KLateralControlErrorPtr[m[K’ {aka ‘[01m[Kclass std::shared_ptr<LateralControlError>[m[K’} has no member named ‘[01m[Klateral_error[m[K’
+  248 |   lat_con_err.[01;31m[Klateral_error[m[K = lateral_error;
+      |               [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:249:15:[m[K [01;31m[Kerror: [m[K‘[01m[KLateralControlErrorPtr[m[K’ {aka ‘[01m[Kclass std::shared_ptr<LateralControlError>[m[K’} has no member named ‘[01m[Kheading_error[m[K’
+  249 |   lat_con_err.[01;31m[Kheading_error[m[K = heading_error;
+      |               [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:250:15:[m[K [01;31m[Kerror: [m[K‘[01m[KLateralControlErrorPtr[m[K’ {aka ‘[01m[Kclass std::shared_ptr<LateralControlError>[m[K’} has no member named ‘[01m[Klateral_error_rate[m[K’
+  250 |   lat_con_err.[01;31m[Klateral_error_rate[m[K = lateral_error_rate;
+      |               [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:251:15:[m[K [01;31m[Kerror: [m[K‘[01m[KLateralControlErrorPtr[m[K’ {aka ‘[01m[Kclass std::shared_ptr<LateralControlError>[m[K’} has no member named ‘[01m[Kheading_error_rate[m[K’
+  251 |   lat_con_err.[01;31m[Kheading_error_rate[m[K = heading_error_rate;
+      |               [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:237:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klinear_a[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  237 |                                          [01;35m[Kconst double linear_a[m[K,
+      |                                          [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:[m[K In member function ‘[01m[Kvoid shenlan::control::LqrController::SolveLQRProblem(const Matrix&, const Matrix&, const Matrix&, const Matrix&, double, uint, shenlan::control::Matrix*)[m[K’:
+[01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:350:40:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst Eigen::Product<Eigen::Product<Eigen::Product<Eigen::Inverse<Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, const Eigen::Matrix<double, -1, -1>, const Eigen::Product<Eigen::Product<Eigen::Transpose<Eigen::Matrix<double, -1, -1> >, Eigen::Matrix<double, -1, -1>, 0>, Eigen::Matrix<double, -1, -1>, 0> > >, Eigen::Transpose<Eigen::Matrix<double, -1, -1> >, 0>, Eigen::Matrix<double, -1, -1>, 0>, Eigen::Matrix<double, -1, -1>, 0>[m[K’ to ‘[01m[Kshenlan::control::Matrix*[m[K’ {aka ‘[01m[KEigen::Matrix<double, -1, -1>*[m[K’} in assignment
+  349 |     ptr_K = [01;31m[K(matrix_r_ + matrix_bd_.transpose() * P * matrix_bd_).inverse() *[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  350 | [01;31m[K            matrix_bd_.transpose() * P * matrix_ad_[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+      |                                        [01;31m[K|[m[K
+      |                                        [01;31m[Kconst Eigen::Product<Eigen::Product<Eigen::Product<Eigen::Inverse<Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, const Eigen::Matrix<double, -1, -1>, const Eigen::Product<Eigen::Product<Eigen::Transpose<Eigen::Matrix<double, -1, -1> >, Eigen::Matrix<double, -1, -1>, 0>, Eigen::Matrix<double, -1, -1>, 0> > >, Eigen::Transpose<Eigen::Matrix<double, -1, -1> >, 0>, Eigen::Matrix<double, -1, -1>, 0>, Eigen::Matrix<double, -1, -1>, 0>[m[K
+make[2]: *** [CMakeFiles/lqr_lateral_pid_longitudinal.dir/build.make:102: CMakeFiles/lqr_lateral_pid_longitudinal.dir/src/lqr_controller.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lqr_lateral_pid_longitudinal.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
