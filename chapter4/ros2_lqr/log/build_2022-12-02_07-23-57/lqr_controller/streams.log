@@ -1,0 +1,62 @@
+[0.061s] Invoking command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lqr_controller': AMENT_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lqr_controller -- -j16 -l16
+[0.178s] [35m[1mScanning dependencies of target lqr_lateral_pid_longitudinal[0m
+[0.303s] [ 20%] [32mBuilding CXX object CMakeFiles/lqr_lateral_pid_longitudinal.dir/src/lqr_controller.cpp.o[0m
+[0.770s] In file included from [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/include/lqr_controller/common.h:19[m[K,
+[0.770s]                  from [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/include/lqr_controller/lqr_controller.h:12[m[K,
+[0.770s]                  from [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:1[m[K:
+[0.770s] [01m[K/opt/ros/rolling/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+[0.770s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[0.770s]       |  [01;35m[K^~~~~~~[m[K
+[7.289s] [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:[m[K In member function ‘[01m[Kdouble shenlan::control::LqrController::ComputeFeedForward(const VehicleState&, double)[m[K’:
+[7.289s] [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:225:67:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K-Wunused-value[m[K]
+[7.290s]   224 |   [01;35m[Kwheelbase_ *ref_curv_ +[m[K
+[7.290s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K                                          
+[7.290s]   225 | [01;35m[K      kv *localization.velocity *localization.velocity *ref_curv_ -[m[K
+[7.291s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[7.291s]   226 | [01;35m[K      matrix_k_(0, 2) *[m[K
+[7.291s]       |       [01;35m[K~~~~~~~~~~~~~~~~~[m[K                                            
+[7.291s]   227 | [01;35m[K          (lr_ * ref_curv_ -[m[K
+[7.291s]       |           [01;35m[K~~~~~~~~~~~~~~~~~~[m[K                                       
+[7.292s]   228 | [01;35m[K           lf_ * mass_ * localization.velocity * localization.velocity *[m[K
+[7.292s]       |            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.292s]   229 | [01;35m[K               ref_curv_ / (2 * cr_ * wheelbase_))[m[K;
+[7.292s]       |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                 
+[7.293s] [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:230:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[7.293s]   230 | [01;35m[K}[m[K
+[7.293s]       | [01;35m[K^[m[K
+[7.293s] [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:221:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kref_curvature[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[7.293s]   221 |                                          [01;35m[Kconst double ref_curvature[m[K) {
+[7.294s]       |                                          [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[7.294s] [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:[m[K In member function ‘[01m[Kvoid shenlan::control::LqrController::ComputeLateralErrors(double, double, double, double, double, double, LateralControlErrorPtr&)[m[K’:
+[7.294s] [01m[K/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/lqr_galactic_wtih_todo_ws/src/lqr_controller/src/lqr_controller.cpp:237:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klinear_a[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[7.294s]   237 |                                          [01;35m[Kconst double linear_a[m[K,
+[7.295s]       |                                          [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+[12.293s] [ 40%] [32m[1mLinking CXX executable lqr_lateral_pid_longitudinal[0m
+[13.383s] [100%] Built target lqr_lateral_pid_longitudinal
+[13.411s] Invoked command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lqr_controller' returned '0': AMENT_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lqr_controller -- -j16 -l16
+[13.501s] Invoking command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lqr_controller': AMENT_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lqr_controller
+[13.521s] -- Install configuration: ""
+[13.522s] -- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/lib/lqr_controller/lqr_lateral_pid_longitudinal
+[13.533s] -- Set runtime path of "/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/lib/lqr_controller/lqr_lateral_pid_longitudinal" to ""
+[13.533s] -- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller//launch
+[13.534s] -- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller//launch/lqr_launch.py
+[13.534s] -- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller//config
+[13.534s] -- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller//config/lqr_parameters_configuration.yaml
+[13.535s] -- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller//rviz
+[13.535s] -- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller//rviz/lqr_vis.rviz
+[13.536s] -- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/ament_index/resource_index/package_run_dependencies/lqr_controller
+[13.536s] -- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/ament_index/resource_index/parent_prefix_path/lqr_controller
+[13.536s] -- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/environment/ament_prefix_path.sh
+[13.536s] -- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/environment/ament_prefix_path.dsv
+[13.537s] -- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/environment/path.sh
+[13.537s] -- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/environment/path.dsv
+[13.537s] -- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/local_setup.bash
+[13.537s] -- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/local_setup.sh
+[13.537s] -- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/local_setup.zsh
+[13.537s] -- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/local_setup.dsv
+[13.537s] -- Installing: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/package.dsv
+[13.537s] -- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/ament_index/resource_index/packages/lqr_controller
+[13.538s] -- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/cmake/lqr_controllerConfig.cmake
+[13.538s] -- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/cmake/lqr_controllerConfig-version.cmake
+[13.538s] -- Up-to-date: /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lqr_controller/share/lqr_controller/package.xml
+[13.543s] Invoked command in '/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lqr_controller' returned '0': AMENT_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/install/lgsvl_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hwl/per_workspace/control_plan/chapter4/ros2_lqr/build/lqr_controller
